@@ -1,0 +1,78 @@
+.discount {
+  margin-bottom: 120px;
+}
+
+.discount .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.discount-img-container {
+  max-width: 680px;
+  width: 100%;
+}
+.discount-text {
+  max-width: 700px;
+}
+.discount-end-month {
+  background-color: #eff3f7;
+  padding: 13px 15px;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.discount-get-cons-button {
+  max-width: 280px;
+  margin-top: 16px;
+}
+
+.discount-mobile-text {
+  display: none;
+}
+.discount-normal-text {
+  display: block;
+}
+
+@media only screen and (max-width: 1100px) {
+  .discount-get-cons-button {
+    margin-top: 10px;
+  }
+  .discount-img-container {
+    max-width: 500px;
+    width: 100%;
+  }
+  .discount {
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .discount .container {
+    flex-direction: column;
+  }
+  .discount-img-container {
+    max-width: 580px;
+    width: 100%;
+  }
+  .discount-mobile-text {
+    display: block;
+    text-align: center;
+  }
+  .discount-normal-text {
+    display: none;
+  }
+  .ButtonСalculation {
+    height: 50px;
+  }
+  .discount-text p {
+    text-align: center;
+  }
+  .discount-end-month {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+}

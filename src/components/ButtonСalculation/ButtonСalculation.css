@@ -1,0 +1,29 @@
+.ButtonСalculation {
+  width: 100%;
+  background: linear-gradient(180deg, #adc7e6 0%, #7e9dc1 39.41%, #5d84ad 100%);
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border-bottom: 7px #5e7d9e solid;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.ButtonСalculation:hover {
+  outline: none;
+  transform: translateY(-2px);
+  border-bottom-color: #4c6787;
+}
+
+@media only screen and (max-width: 800px) {
+  .ButtonСalculation.text-sm {
+    font-size: 12px;
+  }
+}

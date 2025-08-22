@@ -1,0 +1,178 @@
+.lostDiscount {
+  background-color: #2d44dd;
+  padding: 80px 0;
+}
+
+.lostDiscount * {
+  color: #fff;
+}
+
+.lostDiscount-content-left h3 {
+  width: max-content;
+  border-bottom: 1px solid #ffffff;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.lostDiscount-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 50px;
+}
+.lostDiscount-discount-delivery {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+.lostDiscount-discount-delivery-row {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.lostDiscount-content-left {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.lostDiscount-content-right {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-input-wrapper {
+  max-width: 460px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px 0;
+  margin-top: 15px;
+}
+
+.phone-input-wrapper * {
+  font-size: 16px;
+}
+
+.phone-prefix {
+  padding-left: 15px;
+  margin-right: 5px;
+  font-size: 16px;
+  color: #424349;
+  white-space: nowrap;
+}
+
+.phone-input-wrapper input {
+  padding-right: 15px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  flex: 1;
+  color: #424349;
+}
+
+.lostDiscount-form {
+  margin-top: 30px;
+}
+
+.lostDiscount-send {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 20px;
+  max-width: 450px;
+}
+
+.lostDiscount-send button {
+  font-size: 16px;
+  width: 100%;
+  max-width: 250px;
+  padding: 25px 10px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #ef8b44 0%, #f88432 32.93%);
+  border-bottom: 5px solid #eb670a;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.lostDiscount-send button:hover {
+  transform: scale(1.02);
+  opacity: 0.95;
+}
+
+@media only screen and (max-width: 1050px) {
+  .lostDiscount-discount-delivery {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .lostDiscount-discount-delivery{
+    gap: 10px;
+  }
+  .lostDiscount-content-left h2,
+  .lostDiscount-content-left h3 {
+    font-size: 16px;
+    text-align: center !important;
+  }
+  .lostDiscount-content-right h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .lostDiscount-content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    gap: 15px;
+  }
+  .lostDiscount-discount-delivery {
+    flex-direction: row;
+  }
+  .lostDiscount-content-left h3 {
+    margin: 5px auto 10px;
+  }
+  .lostDiscount-send {
+    flex-direction: column;
+  }
+  .lostDiscount-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lostDiscount-form p {
+    text-align: start;
+  }
+  .phone-input-wrapper {
+    max-width: 550px;
+    width: 100%;
+  }
+  .lostDiscount-send {
+    width: 100%;
+    max-width: 550px;
+  }
+  .lostDiscount-send button {
+    display: block;
+    max-width: 550px;
+    width: 100% !important;
+  }
+  .lostDiscount{
+    padding: 40px 0;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .lostDiscount .container .text-xl {
+  font-size: 20px;
+}
+  .lostDiscount-send button{
+    padding: 20px 10px;
+  }
+  .lostDiscount-discount-delivery-row p{
+    font-size: 14px;
+  }
+}

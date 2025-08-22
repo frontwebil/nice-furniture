@@ -1,0 +1,61 @@
+.questions {
+  margin-bottom: 120px;
+}
+
+.questions-cards {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  row-gap: 15px;
+}
+
+.question-card {
+  border-radius: 10px;
+  padding: 20px 20px;
+  background-color: #eff3f7;
+  border: 1px solid #e0e7ee;
+  height: max-content;
+}
+.question-card-top {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.question-card-content {
+  max-height: 0;
+  overflow: hidden;
+  padding-top: 0;
+  transition: max-height 0.4s ease, padding-top 0.4s ease;
+}
+
+.question-card-content.active {
+  max-height: 1000px; /* довільне велике значення */
+}
+
+.question-card-top-icon {
+  width: 16px;
+  height: 16px;
+  transition: all ease 0.3s;
+}
+
+.question-card-top-icon.active {
+  transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 1100px) {
+  .questions-cards{
+    gap: 15px 20px;
+  }
+  .questions{
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .questions-cards{
+    grid-template-columns: repeat(1 , 1fr);
+    gap: 10px;
+    padding-top: 20px;
+  }
+}

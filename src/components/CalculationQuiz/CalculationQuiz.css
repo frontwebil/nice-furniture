@@ -1,0 +1,371 @@
+.calculationQuiz {
+  background: #eff3f7;
+  padding: 80px 0;
+  min-height: 690px;
+}
+.calculationQuiz-content {
+  overflow: hidden;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 30px 20px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 50px;
+  position: relative;
+}
+.calculationQuiz-content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calculationQuiz-content-top-lines {
+  display: flex;
+  position: relative;
+  max-width: 365px;
+  width: 100%;
+  height: 4px;
+  background: #eff3f7;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.calculationQuiz-content-top-line-actual {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background: #7596bc;
+  border-radius: 50px;
+  transition: width 0.3s ease;
+}
+
+.calculationQuiz-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  row-gap: 10px;
+  margin-top: 30px;
+}
+.calculationQuiz-card {
+  background: #eff3f7;
+  position: relative;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all ease 0.3s;
+  min-height: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.calculationQuiz-card:hover {
+  background: #d4e0ee;
+}
+
+.calculationQuiz-card.active {
+  background: #d4e0ee;
+}
+
+/* .calculationQuiz-card-img-container { */
+/* } */
+
+.calculationQuiz-card img {
+  width: 100%;
+  object-fit: contain;
+  max-height: 200px;
+}
+
+.calculationQuiz-card p {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+.calculationQuiz-cards-small {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  row-gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.calculationQuiz-card-small {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid #e0e7ee;
+  border-radius: 5px;
+  background: #eff3f7;
+  padding: 20px;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.calculationQuiz-card-small.active {
+  background: #d3e0ee;
+}
+
+.calculationQuiz-card-small:hover {
+  background: #d3e0ee;
+}
+
+.cirlce {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  border: 1px solid #7596bc;
+  transition: all ease 0.3s;
+}
+
+.calculationQuiz-card-small:hover .cirlce,
+.calculationQuiz-card-small.active .cirlce {
+  background-color: #fff;
+}
+
+.calculationQuiz-card-small:hover .cirlce div,
+.calculationQuiz-card-small.active .cirlce div {
+  display: flex;
+  flex-shrink: 0;
+  background-color: #d3e0ee;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+}
+
+.calculationQuiz-cards-with-image {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+}
+.calculationQuiz-cards-with-image-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.calculationQuiz-cards-image {
+  object-fit: contain;
+  max-width: 360px;
+  width: 100%;
+}
+
+.calculationQuiz-card-small-input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid #e0e7ee;
+  border-radius: 5px;
+  background: #eff3f7;
+  padding: 20px;
+  transition: all ease 0.3s;
+  font-size: 16px;
+}
+.calculationQuiz-card-small-discount {
+  border: 1px solid #ef8b44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.calculationQuiz-card-small-getCons {
+  background: linear-gradient(180deg, #adc7e6 0%, #7e9dc1 39.41%, #5d84ad 100%);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+
+.calculationQuiz-card-small-getCons p {
+  color: #fff;
+}
+
+.calculationQuiz-card-small-getCons:hover {
+  opacity: 0.95;
+}
+
+.quiz-arrow-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -50px;
+  background: #ffffff;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+}
+.quiz-arrow-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -50px;
+  background: #ffffff;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+}
+.quiz-arrow-icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 100%;
+  background: linear-gradient(180deg, #adc7e6 0%, #7e9dc1 39.41%);
+}
+
+.quiz-arrow-prev:disabled .quiz-arrow-icon,
+.quiz-arrow-next:disabled .quiz-arrow-icon {
+  background: #dbe5ef; /* світліший градієнт для іконки */
+  cursor: not-allowed;
+}
+
+.calculationQuiz-cards-thank {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  height: auto;
+  justify-content: space-between;
+}
+
+.calculationQuiz-cards-thank .calculationQuiz-card-small-getCons {
+  padding: 20px 10px;
+}
+.calculationQuiz-cards-thank .calculationQuiz-card-small-discount {
+  padding: 20px 10px;
+}
+
+.calculationQuiz-cards-thank-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+/* spinner */
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 6px solid #ccc;
+  border-top-color: #1d4ed8;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* заморозка скролу */
+body.loading {
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1100px) {
+  .quiz-arrow-next {
+    z-index: 5;
+    right: -20px;
+    width: 50px;
+    height: 50px;
+  }
+  .quiz-arrow-prev {
+    z-index: 5;
+    left: -20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .quiz-arrow-icon {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .calculationQuiz-card {
+    min-height: 140px;
+  }
+  .calculationQuiz-content-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .calculationQuiz-content-top-lines {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .calculationQuiz-card-small-input {
+    padding: 15px;
+  }
+  .calculationQuiz-card-small-discount {
+    padding: 15px;
+  }
+  .calculationQuiz-card-small-getCons {
+    padding: 15px;
+  }
+  .calculationQuiz-cards-small {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5;
+  }
+  .calculationQuiz-card-small {
+    padding: 15px;
+  }
+
+  .calculationQuiz-cards-with-image {
+    flex-direction: column;
+  }
+  .calculationQuiz-cards-with-image-column {
+    gap: 10px;
+  }
+  .calculationQuiz-cards-image {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .calculationQuiz-card {
+    min-height: 150px;
+    padding: 15px 5px;
+  }
+  .calculationQuiz {
+    min-height: 500px;
+  }
+}
