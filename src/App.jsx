@@ -3,7 +3,7 @@ import { Advantages } from "./components/Advantages/Advantages";
 import { CalculationQuiz } from "./components/CalculationQuiz/CalculationQuiz";
 import { Discount } from "./components/Discount/Discount";
 import { Footer } from "./components/Footer/Footer";
-import { Header } from "./components/header/header";
+import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
 import { HowBornKitchen } from "./components/HowBornKitchen/HowBornKitchen";
 import { LostDiscount } from "./components/LostDiscount/LostDiscount";
