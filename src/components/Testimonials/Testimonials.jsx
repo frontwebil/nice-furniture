@@ -55,7 +55,7 @@ export function Testimonials() {
           </span>
         </h2>
         <div className="main-image">
-          <img src="/testimonials/main.png" alt="" />
+          <img src="/testimonials/main.webp" alt="" />
         </div>
         {isOpenSlider && (
           <TestimonialsSlider

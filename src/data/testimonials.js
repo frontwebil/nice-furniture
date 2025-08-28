@@ -1,10 +1,10 @@
 export const testimonials = [
-  "/testimonials/1.png",
-  "/testimonials/2.png",
-  "/testimonials/3.png",
-  "/testimonials/4.png",
-  "/testimonials/5.png",
-  "/testimonials/6.png",
-  "/testimonials/7.png",
-  "/testimonials/8.png",
+  "/testimonials/1.webp",
+  "/testimonials/2.webp",
+  "/testimonials/3.webp",
+  "/testimonials/4.webp",
+  "/testimonials/5.webp",
+  "/testimonials/6.webp",
+  "/testimonials/7.webp",
+  "/testimonials/8.webp",
 ]
