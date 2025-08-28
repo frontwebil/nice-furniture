@@ -131,6 +131,13 @@
   }
 }
 @media only screen and (max-width: 600px) {
+  .hero-section {
+  background-image: url("/hero/hero-mobile-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+}
   .hero-discount-row-img {
     width: 74px;
     height: 70px;
