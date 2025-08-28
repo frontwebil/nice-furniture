@@ -48,4 +48,8 @@ footer {
     gap: 20px 15px;
     grid-template-columns: 1fr;
   }
+  .footer-logo {
+    max-width: 130px;
+    margin-bottom: 10px;
+  }
 }
