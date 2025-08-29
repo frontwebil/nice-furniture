@@ -1,9 +1,11 @@
+import { Header } from "./components/Header/Header";
+import { ToastContainer } from "react-toastify";
 import { AboutUs } from "./components/AboutUs/AboutUs";
 import { Advantages } from "./components/Advantages/Advantages";
 import { CalculationQuiz } from "./components/CalculationQuiz/CalculationQuiz";
 import { Discount } from "./components/Discount/Discount";
 import { Footer } from "./components/Footer/Footer";
-import { Header } from "./components/Header/Header";
+import { Form } from "./components/Form/Form";
 import { Hero } from "./components/Hero/Hero";
 import { HowBornKitchen } from "./components/HowBornKitchen/HowBornKitchen";
 import { LostDiscount } from "./components/LostDiscount/LostDiscount";
@@ -16,6 +18,13 @@ import "./general.css";
 function App() {
   return (
     <>
+      <ToastContainer
+        position="bottom-center"
+        autoClose={3000}
+        hideProgressBar={true}
+        closeOnClick
+      />
+      <Form />
       <Header />
       <Hero />
       <SeeMore />

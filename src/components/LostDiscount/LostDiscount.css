@@ -68,6 +68,7 @@
 }
 
 .phone-input-wrapper input {
+  background-color: transparent;
   padding-right: 15px;
   font-size: 16px;
   border: none;
@@ -111,7 +112,10 @@
   }
 }
 @media only screen and (max-width: 920px) {
-  .lostDiscount-discount-delivery{
+  .phone-input-wrapper {
+    padding: 12px 0;
+  }
+  .lostDiscount-discount-delivery {
     gap: 10px;
   }
   .lostDiscount-content-left h2,
@@ -160,19 +164,19 @@
     max-width: 550px;
     width: 100% !important;
   }
-  .lostDiscount{
+  .lostDiscount {
     padding: 40px 0;
     margin-bottom: 40px;
   }
 }
 @media only screen and (max-width: 480px) {
   .lostDiscount .container .text-xl {
-  font-size: 20px;
-}
-  .lostDiscount-send button{
+    font-size: 20px;
+  }
+  .lostDiscount-send button {
     padding: 20px 10px;
   }
-  .lostDiscount-discount-delivery-row p{
+  .lostDiscount-discount-delivery-row p {
     font-size: 14px;
   }
 }

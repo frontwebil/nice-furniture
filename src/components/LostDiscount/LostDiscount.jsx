@@ -1,6 +1,7 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./LostDiscount.css";
+import { toast } from "react-toastify";
 
 export function LostDiscount() {
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -22,11 +23,13 @@ export function LostDiscount() {
       )
       .then(() => {
         setLoading(false);
-        setPhoneNumber("")
+        setPhoneNumber("");
+        toast.success("Заявку відправлено!");
       })
       .catch((error) => {
         setLoading(false);
         alert("Помилка: " + error.text);
+        toast.error("Сталася помилка");
       });
   };
   return (
