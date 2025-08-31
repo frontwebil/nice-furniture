@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "./general.css";
 import { Form } from "./components/Form/Form";
 import { Footer } from "./components/Footer/Footer";
-import { Header } from "./components/header/header";
+import { Header } from "./components/Header/Header";
 
 function App() {
   return (
