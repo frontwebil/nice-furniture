@@ -6,6 +6,10 @@
   font-weight: 500 !important;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 a,
 a:link,
 a:visited {

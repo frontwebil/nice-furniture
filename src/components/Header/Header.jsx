@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 export function Header() {
   const [isOpenBurger, setIsOpenBurger] = useState(false);
@@ -15,7 +16,9 @@ export function Header() {
     <header className={`${isOpenBurger && "active"}`}>
       <div className={`header-bg ${isOpenBurger && "active"}`}>
         <div className={`header-container container`}>
-          <img src="/logo.png" alt="" />
+          <Link to={"/"}>
+            <img src="/logo.png" alt="" />
+          </Link>
           <div className="header-right">
             <div className="header-social-icons">
               <a href="">

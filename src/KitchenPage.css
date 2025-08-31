@@ -1,0 +1,17 @@
+.kitchen-page {
+  padding-top: 120px;
+}
+/* .container {
+} */
+
+
+.kitchen-page-content{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.kitchen-page-info{
+  margin-top: 50px;
+}

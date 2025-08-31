@@ -42,6 +42,10 @@
   padding: 0 25px;
 }
 
+.gray {
+  color: #7c7c7c;
+}
+
 @media only screen and (max-width: 1100px) {
   .text-md {
     font-size: 20px;

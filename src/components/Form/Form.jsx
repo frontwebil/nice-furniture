@@ -73,10 +73,10 @@ export function Form() {
               <p className="text-base">Виникли питання? Пишіть нам в :</p>
               <div className="pop-up-icons">
                 <a href="https://msng.link/o?+380682202291=vi">
-                  <img src="icons/vb.svg" alt="" className="icon-social" />
+                  <img src="/icons/vb.svg" alt="" className="icon-social" />
                 </a>
                 <a href="https://t.me/FayniKuhni1">
-                  <img src="icons/tg.svg" alt="" className="icon-social" />
+                  <img src="/icons/tg.svg" alt="" className="icon-social" />
                 </a>
               </div>
               <p className="text-sm">Ім'я</p>

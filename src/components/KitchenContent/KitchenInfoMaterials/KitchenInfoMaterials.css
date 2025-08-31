@@ -1,0 +1,17 @@
+.kitchen-info-materials {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.kitchen-info-materials-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.kitchen-info-materials-column-title {
+  padding: 12px;
+  background-color: #eff3f7;
+  font-weight: 500;
+  color: #424349;
+}

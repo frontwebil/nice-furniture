@@ -1,0 +1,66 @@
+.kitchen-slider {
+  max-width: 850px;
+  width: 100%;
+  /* padding-bottom: 50px; */
+}
+.kitchen-slider-main-image {
+  width: 100%;
+}
+.kitchen-slider-main-image img {
+  width: 100%;
+  max-height: 500px;
+}
+.slider-nav {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  cursor: pointer;
+}
+.slider-nav:active {
+  cursor: grabbing;
+}
+.slider-nav-image {
+  display: flex;
+  flex-shrink: 0;
+  border-radius: 13px;
+  border: 3px solid transparent;
+  max-width: 150px;
+}
+
+.slider-nav-image.active {
+  border: 3px solid #7596BC;
+}
+
+.slider-nav-image img {
+  border-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Контейнер скролбару */
+.slider-scrollbar {
+  height: 6px;
+  background-color: #eee;
+  border-radius: 3px;
+  margin-top: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-scrollbar-thumb {
+  height: 100%;
+  background-color: #7596BC;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+}
+

@@ -1,0 +1,30 @@
+.kitchen-info {
+  display: flex;
+  flex-direction: column;
+}
+.kitchen-info h3 {
+  max-width: 430px;
+}
+
+.kitchen-info-code {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  color: #424349;
+}
+.kitchen-info-oldPrice {
+  font-weight: 500;
+  font-size: 16px;
+  color: #424349;
+  padding-bottom: 5px;
+  text-decoration: line-through;
+}
+.kitchen-info-price {
+  font-weight: 700 !important;
+  font-size: 30px;
+  color: #dd4631;
+  margin-bottom: 30px;
+}
+
+.kitchen-info-get-consault{
+  max-width: 290px;
+}
