@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import { KithcenPage } from "./pages/KithcenPage";
-import { MainPage } from "./pages/mainPage";
+import { MainPage } from "./pages/MainPage";
 
 export const router = createBrowserRouter([
   {
