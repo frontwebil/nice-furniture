@@ -11,7 +11,7 @@ import { Partners } from "../components/Partners/Partners";
 import { Questions } from "../components/Questions/Questions";
 import { Testimonials } from "../components/Testimonials/Testimonials";
 import { Catalog } from "../components/Catalog/Catalog";
-function MainPage() {
+export function MainPage() {
   return (
     <>
       <Hero />
@@ -29,5 +29,3 @@ function MainPage() {
     </>
   );
 }
-
-export default MainPage;

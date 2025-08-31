@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import MainPage from "./pages/mainPage";
 import { KithcenPage } from "./pages/KithcenPage";
+import { MainPage } from "./pages/mainPage";
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +16,6 @@ export const router = createBrowserRouter([
         path: "/kitchen/:id",
         element: <KithcenPage />,
       },
-      ],
+    ],
   },
 ]);
