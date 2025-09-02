@@ -58,19 +58,23 @@ export function Form() {
           <div className="form-wrapper" ref={formRef}>
             <form action="" className="modal-form" onSubmit={sendQuizResaults}>
               <h3 className="text-md font-bold" style={{ textAlign: "center" }}>
-                Ми обов'язково зв'яжемося з вами
+                Зв'яжіться з нами!
               </h3>
-              <h4 className="text-base" style={{ textAlign: "center" }}>
-                Залиште свої контакти або зв'яжіться з нами!
-              </h4>
               <a
                 href="tel:0682202291"
                 className="text-base font-bold"
-                style={{ margin: "10px 0" }}
+                style={{ margin: "0px 0 10px", textAlign: "center" }}
               >
-                🇺🇦 +38 (068) 220 22 91
+                0444900000
               </a>
-              <p className="text-base">Виникли питання? Пишіть нам в :</p>
+              <a
+                href="tel:0682202291"
+                className="text-base font-bold"
+                style={{ margin: "0px 0 10px", textAlign: "center" }}
+              >
+                0682202291
+              </a>
+              <p className="text-base">Тисніть на іконки:</p>
               <div className="pop-up-icons">
                 <a href="https://msng.link/o?+380682202291=vi">
                   <img src="/icons/vb.svg" alt="" className="icon-social" />
@@ -79,7 +83,9 @@ export function Form() {
                   <img src="/icons/tg.svg" alt="" className="icon-social" />
                 </a>
               </div>
-              <p className="text-sm">Ім'я</p>
+              <h3 className="text-md font-bold" style={{ textAlign: "center" }}>
+                Або залиште свої контакти
+              </h3>
               <input
                 type="text"
                 className="name-input-modal-form"
@@ -89,7 +95,6 @@ export function Form() {
                 onChange={(e) => setName(e.target.value)}
                 required
               />
-              <p className="text-sm">Телефон</p>
               <div
                 className="phone-input-wrapper mobile-margins"
                 style={{ maxWidth: "100%" }}
