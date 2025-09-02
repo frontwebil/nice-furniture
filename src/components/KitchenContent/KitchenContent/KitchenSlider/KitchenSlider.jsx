@@ -1,9 +1,9 @@
 import { useRef, useState, useEffect } from "react";
 import "./KitchenSlider.css";
+import { useSwipeable } from "react-swipeable";
 
 export function KitchenSlider({ currentKitchen }) {
   const [currentSlide, setCurrentSlide] = useState(0);
-  console.log(currentSlide)
   const navRef = useRef(null);
   const [scrollPercent, setScrollPercent] = useState(0);
 
@@ -15,20 +15,21 @@ export function KitchenSlider({ currentKitchen }) {
     setIsDown(true);
     setStartX(e.clientX);
     setScrollStart(navRef.current.scrollLeft);
-    navRef.current.style.cursor = 'grabbing';
+    navRef.current.style.cursor = "grabbing";
   };
 
-  const handleMouseUp = () => {
-    setIsDown(false);
-    navRef.current.style.cursor = 'grab';
-  };
-
-  const handleMouseMove = (e) => {
-    if (!isDown) return;
-    e.preventDefault();
-    const walk = startX - e.clientX;
-    navRef.current.scrollLeft = scrollStart + walk;
-  };
+  const handlers = useSwipeable({
+    onSwipedLeft: () =>
+      setCurrentSlide((prev) =>
+        prev === currentKitchen.gallery.length - 1 ? 0 : prev + 1
+      ),
+    onSwipedRight: () =>
+      setCurrentSlide((prev) =>
+        prev === 0 ? currentKitchen.gallery.length - 1 : prev - 1
+      ),
+    preventDefaultTouchmoveEvent: true,
+    trackMouse: true, // свайпи працюють і з мишкою
+  });
 
   const handleImageClick = (index) => {
     setCurrentSlide(index);
@@ -57,7 +58,7 @@ export function KitchenSlider({ currentKitchen }) {
       if (isDown) {
         setIsDown(false);
         if (navRef.current) {
-          navRef.current.style.cursor = 'grab';
+          navRef.current.style.cursor = "grab";
         }
       }
     };
@@ -72,19 +73,19 @@ export function KitchenSlider({ currentKitchen }) {
     };
 
     if (isDown) {
-      document.addEventListener('mouseup', handleGlobalMouseUp);
-      document.addEventListener('mousemove', handleGlobalMouseMove);
+      document.addEventListener("mouseup", handleGlobalMouseUp);
+      document.addEventListener("mousemove", handleGlobalMouseMove);
     }
 
     return () => {
-      document.removeEventListener('mouseup', handleGlobalMouseUp);
-      document.removeEventListener('mousemove', handleGlobalMouseMove);
+      document.removeEventListener("mouseup", handleGlobalMouseUp);
+      document.removeEventListener("mousemove", handleGlobalMouseMove);
     };
   }, [isDown, startX, scrollStart]);
 
   return (
     <div className="kitchen-slider">
-      <div className="kitchen-slider-main-image">
+      <div className="kitchen-slider-main-image" {...handlers}>
         <img
           src={currentKitchen.gallery[currentSlide].src}
           alt={`Кухня ${currentSlide + 1}`}
@@ -95,7 +96,7 @@ export function KitchenSlider({ currentKitchen }) {
         className="slider-nav"
         ref={navRef}
         onMouseDown={handleMouseDown}
-        style={{ cursor: 'grab' }}
+        style={{ cursor: "grab" }}
       >
         {currentKitchen.gallery.map((el, i) => (
           <div
@@ -122,3 +123,15 @@ export function KitchenSlider({ currentKitchen }) {
     </div>
   );
 }
+
+// const handleMouseUp = () => {
+//   setIsDown(false);
+//   navRef.current.style.cursor = 'grab';
+// };
+
+// const handleMouseMove = (e) => {
+//   if (!isDown) return;
+//   e.preventDefault();
+//   const walk = startX - e.clientX;
+//   navRef.current.scrollLeft = scrollStart + walk;
+// };
