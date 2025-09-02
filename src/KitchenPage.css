@@ -1,23 +1,138 @@
 .kitchen-page {
   padding-top: 120px;
+  padding-bottom: 50px;
 }
 /* .container {
 } */
 
-
-.kitchen-page-content{
+.kitchen-page-content {
   display: flex;
   align-items: center;
   gap: 30px;
   margin-top: 40px;
 }
 
-.kitchen-page-info{
+.kitchen-page-info {
   margin-top: 50px;
+  margin-bottom: 120px;
 }
 
-.kitchen-navigate{
+.kitchen-navigate {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.kitchen-interest {
+  position: relative;
+}
+.interest-arrow-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0px;
+  border-radius: 100%;
+  z-index: 11;
+  background: transparent;
+}
+
+.interest-arrow-next {
+  z-index: 11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0px;
+  border-radius: 100%;
+  background: transparent;
+}
+
+.interest-arrow-icon {
+  color: #fff !important;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 100%;
+  background: linear-gradient(180deg, #adc7e6 0%, #7e9dc1 39.41%);
+}
+
+.interest-arrow-prev:disabled .interest-arrow-icon,
+.interest-arrow-next:disabled .interest-arrow-icon {
+  background: #dbe5ef; /* світліший градієнт для іконки */
+  cursor: not-allowed;
+}
+
+.interest-catalog-cards {
+  gap: 15px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.circles {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #dbe5ef;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.circle.active {
+  background: #7596bc;
+}
+
+.buttons-kitchen-interest {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* адаптив */
+@media only screen and (max-width: 1100px) {
+  .interest-arrow-next {
+    z-index: 5;
+  }
+  .interest-arrow-prev {
+    z-index: 5;
+  }
+
+  .interest-arrow-icon {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .interest-catalog-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 колонки однакової ширини */
+    gap: 20px; /* відстань між елементами */
+  }
+  .interest-catalog-cards .catalog-card {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .interest-arrow-next {
+    z-index: 5;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+  }
+  .interest-arrow-prev {
+    z-index: 5;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+  }
 }

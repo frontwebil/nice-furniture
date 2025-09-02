@@ -7,6 +7,7 @@ import { KitchenInfo } from "../components/KitchenContent/KitchenContent/Kitchen
 import { KitchenSlider } from "../components/KitchenContent/KitchenContent/KitchenSlider/KitchenSlider";
 import { KitchenInfoMaterials } from "../components/KitchenContent/KitchenInfoMaterials/KitchenInfoMaterials";
 import { KitchenMaterialsColors } from "../components/KitchenContent/KitchenMaterialsColors/KitchenMaterialsColors";
+import { KitchenInterest } from "../components/KitchenContent/KitchenInterest/KitchenInterest";
 
 export function KithcenPage() {
   const { id } = useParams();
@@ -34,9 +35,11 @@ export function KithcenPage() {
             <p className="gray text-xs" style={{ whiteSpace: "pre-wrap" }}>
               {currentKitchen.descriptions}
             </p>
-            <KitchenInfoMaterials currentKitchen={currentKitchen}/>
-            <KitchenMaterialsColors currentKitchen={currentKitchen}/>
+            <KitchenInfoMaterials currentKitchen={currentKitchen} />
+            <KitchenMaterialsColors currentKitchen={currentKitchen} />
           </div>
+          <h3 className="text-lg">Товари, які можуть вас зацікавити</h3>
+          <KitchenInterest />
         </div>
       )}
     </section>

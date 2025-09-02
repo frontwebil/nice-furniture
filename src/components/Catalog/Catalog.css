@@ -118,3 +118,12 @@
     margin: 40px auto 0;
   }
 }
+
+@media only screen and (max-width: 440px) {
+    .card-img-sticker {
+    font-size: 6px;
+    top: 5px;
+    left: 5px;
+    padding:8px 4px;
+  }
+}
