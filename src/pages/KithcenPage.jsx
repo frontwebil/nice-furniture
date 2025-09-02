@@ -34,8 +34,8 @@ export function KithcenPage() {
             <p className="gray text-xs" style={{ whiteSpace: "pre-wrap" }}>
               {currentKitchen.descriptions}
             </p>
-            {/* <KitchenInfoMaterials currentKitchen={currentKitchen}/>
-            <KitchenMaterialsColors currentKitchen={currentKitchen}/> */}
+            <KitchenInfoMaterials currentKitchen={currentKitchen}/>
+            <KitchenMaterialsColors currentKitchen={currentKitchen}/>
           </div>
         </div>
       )}

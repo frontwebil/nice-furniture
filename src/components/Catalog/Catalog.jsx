@@ -21,7 +21,7 @@ export function Catalog() {
         {cardPerView < catalog.length && (
           <button
             className="catalog-see-more-button"
-            onClick={() => setCardPerView((prev) => prev + 4)} // додає по 4 картки
+            onClick={() => setCardPerView((prev) => prev + 8)} // додає по 4 картки
           >
             Показати ще
           </button>

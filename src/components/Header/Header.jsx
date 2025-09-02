@@ -36,10 +36,10 @@ export function Header() {
                 />
               </a>
               <a
-                href="tel:+38 (097) 459-75-57"
+                href="tel:(068) 220-22-91"
                 className="telephone text-md font-medium"
               >
-                +38 (097) 459-75-57
+                (068) 220-22-91
               </a>
             </div>
             <div
@@ -104,10 +104,10 @@ export function Header() {
         </a>
         <div className="mobile-header-column">
           <a href="tel:0444900000" className="font-semiBold">
-            0444900000
+            (044) 490-00-00
           </a>
           <a href="tel:0682202291" className="font-semiBold">
-            0682202291
+            (068) 220-22-91
           </a>
           <p className="text-base">Тисніть на іконки:</p>
           <div className="pop-up-icons">

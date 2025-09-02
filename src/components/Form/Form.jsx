@@ -3,6 +3,7 @@ import { useFormContext } from "../../FormContext";
 import "./Form.css";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
+import { IoMdClose } from "react-icons/io";
 
 export function Form() {
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -57,6 +58,10 @@ export function Form() {
         <div className="fixed-form" onClick={handleClickOutside}>
           <div className="form-wrapper" ref={formRef}>
             <form action="" className="modal-form" onSubmit={sendQuizResaults}>
+              <IoMdClose
+                className="testimonialsSlider-icon-close"
+                onClick={() => closeForm()}
+              />
               <h3 className="text-md font-bold" style={{ textAlign: "center" }}>
                 Зв'яжіться з нами!
               </h3>
@@ -65,14 +70,14 @@ export function Form() {
                 className="text-base font-bold"
                 style={{ margin: "0px 0 10px", textAlign: "center" }}
               >
-                0444900000
+                (044) 490-00-00
               </a>
               <a
                 href="tel:0682202291"
                 className="text-base font-bold"
                 style={{ margin: "0px 0 10px", textAlign: "center" }}
               >
-                0682202291
+                (068) 220-22-91
               </a>
               <p className="text-base">Тисніть на іконки:</p>
               <div className="pop-up-icons" style={{ marginTop: "0px" }}>
