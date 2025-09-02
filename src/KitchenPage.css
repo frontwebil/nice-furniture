@@ -15,3 +15,9 @@
 .kitchen-page-info{
   margin-top: 50px;
 }
+
+.kitchen-navigate{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
