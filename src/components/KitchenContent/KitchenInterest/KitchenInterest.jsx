@@ -2,6 +2,7 @@ import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 import { catalog } from "../../../data/catalog";
 import { useState } from "react";
 import { CatalogCard } from "../../Catalog/CatalogCard";
+import { useSwipeable } from "react-swipeable";
 
 export function KitchenInterest() {
   const itemsPerPage = 4;
@@ -13,16 +14,24 @@ export function KitchenInterest() {
   const end = start + itemsPerPage;
 
   const nextPage = () => {
-    if (page < totalPages - 1) setPage(page + 1);
+    if (page < totalPages - 1) setPage((prev) => prev + 1);
   };
 
   const prevPage = () => {
-    if (page > 0) setPage(page - 1);
+    if (page > 0) setPage((prev) => prev - 1);
   };
+
+  // свайпи
+  const handlers = useSwipeable({
+    onSwipedLeft: nextPage,   // свайп вліво -> наступна сторінка
+    onSwipedRight: prevPage,  // свайп вправо -> попередня сторінка
+    preventDefaultTouchmoveEvent: true,
+    trackMouse: true, // щоб працювало і мишею на десктопі
+  });
 
   return (
     <div className="kitchen-interest">
-      <div className="interest-catalog-cards">
+      <div className="interest-catalog-cards" {...handlers}>
         {catalog.slice(start, end).map((kitchen, i) => (
           <CatalogCard key={i} kitchen={kitchen} />
         ))}
