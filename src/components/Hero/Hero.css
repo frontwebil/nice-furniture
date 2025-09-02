@@ -60,6 +60,9 @@
   align-items: center;
 }
 .hero-kitchen {
+  max-width: 300px;
+  width: 100%;
+  min-height: 120px;
   position: relative;
   border-radius: 10px;
 }
@@ -133,12 +136,12 @@
 }
 @media only screen and (max-width: 600px) {
   .hero-section {
-  background-image: url("/hero/hero-mobile-bg.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  /* height: 100vh; */
-}
+    background-image: url("/hero/hero-mobile-bg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+  }
   .hero-discount-row-img {
     width: 74px;
     height: 70px;

@@ -103,19 +103,27 @@ export function Header() {
           найчастіші питання
         </a>
         <div className="mobile-header-column">
+          <a href="tel:0444900000" className="font-semiBold">
+            0444900000
+          </a>
+          <a href="tel:0682202291" className="font-semiBold">
+            0682202291
+          </a>
+          <p className="text-base">Тисніть на іконки:</p>
+          <div className="pop-up-icons">
+            <a href="https://msng.link/o?+380682202291=vi">
+              <img src="/icons/vb.svg" alt="" className="icon-social" />
+            </a>
+            <a href="https://t.me/FayniKuhni1">
+              <img src="/icons/tg.svg" alt="" className="icon-social" />
+            </a>
+          </div>
           <a
             href="https://share.google/sXr6XXfJFFilGf57y"
             className="text-base font-semiBold"
           >
             м. Київ, вул. Святошинська, 1
           </a>
-          <a href="tel:+380974597557" className="font-semiBold">
-            +38 (097) 459-75-57
-          </a>
-          <a href="tel:0800337592" className="font-semiBold">
-            0800 33 75 92
-          </a>
-          <p>безкоштовно з усіх телефонів</p>
           <div className="footer-links-social">
             <a href="">
               <img
@@ -134,20 +142,6 @@ export function Header() {
             <a href="">
               <img
                 src="/footer/yt.svg"
-                alt=""
-                className="footer-links-social-icon"
-              />
-            </a>
-            <a href="">
-              <img
-                src="/footer/tg.svg"
-                alt=""
-                className="footer-links-social-icon"
-              />
-            </a>
-            <a href="">
-              <img
-                src="/footer/viber.svg"
                 alt=""
                 className="footer-links-social-icon"
               />

@@ -75,7 +75,7 @@ export function Form() {
                 0682202291
               </a>
               <p className="text-base">Тисніть на іконки:</p>
-              <div className="pop-up-icons">
+              <div className="pop-up-icons" style={{ marginTop: "0px" }}>
                 <a href="https://msng.link/o?+380682202291=vi">
                   <img src="/icons/vb.svg" alt="" className="icon-social" />
                 </a>
