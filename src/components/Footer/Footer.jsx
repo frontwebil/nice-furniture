@@ -14,15 +14,9 @@ export function Footer() {
           <a href="tel:(068) 220-22-91">
             <p className="text-base font-semiBold">(068) 220-22-91</p>
           </a>
-          <a href="https://share.google/sXr6XXfJFFilGf57y">
-            <p className="text-base font-semiBold">
-              м. Київ, вул. Святошинська, 1
-            </p>
-          </a>
           <div className="footer-icons-wrapper">
-              <p className="text-base">Тисніть на іконки:</p>
+            <p className="text-base">Тисніть на іконки:</p>
             <div className="pop-up-icons" style={{ margin: "0px" }}>
-
               <a href="https://msng.link/o?+380682202291=vi">
                 <img src="/icons/vb.svg" alt="" className="icon-social" />
               </a>
@@ -31,6 +25,11 @@ export function Footer() {
               </a>
             </div>
           </div>
+          <a href="https://share.google/sXr6XXfJFFilGf57y">
+            <p className="text-base font-semiBold">
+              м. Київ, вул. Святошинська, 1
+            </p>
+          </a>
           <div className="footer-links-social">
             <a href="">
               <img
@@ -53,7 +52,6 @@ export function Footer() {
                 className="footer-links-social-icon"
               />
             </a>
-
           </div>
         </div>
       </div>
