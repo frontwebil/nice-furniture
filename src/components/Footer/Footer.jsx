@@ -53,20 +53,7 @@ export function Footer() {
                 className="footer-links-social-icon"
               />
             </a>
-            <a href="">
-              <img
-                src="/footer/tg.svg"
-                alt=""
-                className="footer-links-social-icon"
-              />
-            </a>
-            <a href="">
-              <img
-                src="/footer/viber.svg"
-                alt=""
-                className="footer-links-social-icon"
-              />
-            </a>
+
           </div>
         </div>
       </div>
