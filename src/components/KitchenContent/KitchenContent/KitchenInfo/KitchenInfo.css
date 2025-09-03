@@ -21,7 +21,7 @@
 }
 .kitchen-info-price {
   font-weight: 700 !important;
-  font-size: 30px;
+  font-size: 24px;
   color: #dd4631;
   margin-bottom: 30px;
 }
@@ -36,7 +36,7 @@
 
 @media only screen and (max-width: 1100px) {
   .kitchen-info-price {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 20px;
   }
   .kitchen-info-code {
@@ -60,7 +60,18 @@
     display: flex;
     margin-top: 15px;
   }
-  .kitchen-info{
+  .kitchen-info {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .kitchen-info-get-consault .ButtonСalculation.text-sm{
+    font-size: 16px;
+
+  }
+  .kitchen-info-price {
+    font-size: 18px;
+    margin-bottom: 20px;
   }
 }

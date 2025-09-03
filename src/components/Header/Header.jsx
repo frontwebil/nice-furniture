@@ -109,7 +109,7 @@ export function Header() {
           <a href="tel:0682202291" className="font-semiBold">
             (068) 220-22-91
           </a>
-          <p className="text-base">Тисніть на іконки:</p>
+          <p className="text-base font-semiBold">Тисніть на іконки:</p>
           <div className="pop-up-icons">
             <a href="https://msng.link/o?+380682202291=vi">
               <img src="/icons/vb.svg" alt="" className="icon-social" />

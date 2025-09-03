@@ -8,22 +8,29 @@ export function Footer() {
           <img src="/logo.png" alt="" />
         </div>
         <div className="footer-links">
+          <a href="tel:(044) 490-00-00">
+            <p className="text-base font-semiBold">(044) 490-00-00</p>
+          </a>
+          <a href="tel:(068) 220-22-91">
+            <p className="text-base font-semiBold">(068) 220-22-91</p>
+          </a>
           <a href="https://share.google/sXr6XXfJFFilGf57y">
             <p className="text-base font-semiBold">
               м. Київ, вул. Святошинська, 1
             </p>
           </a>
-          <a href="tel:+380974597557">
-            <p className="text-base font-semiBold">+38 (097) 459-75-57</p>
-          </a>
-          <a href="tel:0800 33 75 92">
-            <p className="text-base font-semiBold">0800 33 75 92</p>
-            <p className="text-xxs">безкоштовно з усіх телефонів</p>
-          </a>
-          <a href="https://fayni-mebli.com/">
-            <p className="text-base font-semiBold">www.fayni-mebli.com.ua </p>
-            <p className="text-xxs">наш вебсайт</p>
-          </a>
+          <div className="footer-icons-wrapper">
+              <p className="text-base">Тисніть на іконки:</p>
+            <div className="pop-up-icons" style={{ margin: "0px" }}>
+
+              <a href="https://msng.link/o?+380682202291=vi">
+                <img src="/icons/vb.svg" alt="" className="icon-social" />
+              </a>
+              <a href="https://t.me/FayniKuhni1">
+                <img src="/icons/tg.svg" alt="" className="icon-social" />
+              </a>
+            </div>
+          </div>
           <div className="footer-links-social">
             <a href="">
               <img

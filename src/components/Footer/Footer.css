@@ -21,6 +21,12 @@ footer {
   height: 39px;
 }
 
+.footer-icons-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 @media only screen and (max-width: 940px) {
   .footer-links {
     display: grid;

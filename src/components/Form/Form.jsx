@@ -62,7 +62,10 @@ export function Form() {
                 className="testimonialsSlider-icon-close"
                 onClick={() => closeForm()}
               />
-              <h3 className="text-md font-bold" style={{ textAlign: "center" }}>
+              <h3
+                className="text-md font-semiBold"
+                style={{ textAlign: "center" }}
+              >
                 Зв'яжіться з нами!
               </h3>
               <a
@@ -79,8 +82,8 @@ export function Form() {
               >
                 (068) 220-22-91
               </a>
-              <p className="text-base">Тисніть на іконки:</p>
-              <div className="pop-up-icons" style={{ marginTop: "0px" }}>
+              <p className="text-base font-semiBold">Тисніть на іконки:</p>
+              <div className="pop-up-icons" style={{ marginTop: "10px" }}>
                 <a href="https://msng.link/o?+380682202291=vi">
                   <img src="/icons/vb.svg" alt="" className="icon-social" />
                 </a>
@@ -88,7 +91,10 @@ export function Form() {
                   <img src="/icons/tg.svg" alt="" className="icon-social" />
                 </a>
               </div>
-              <h3 className="text-md font-bold" style={{ textAlign: "center" }}>
+              <h3
+                className="text-md font-semiBold"
+                style={{ textAlign: "center" }}
+              >
                 Або залиште свої контакти
               </h3>
               <input
