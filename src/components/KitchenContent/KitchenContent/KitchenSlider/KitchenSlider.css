@@ -5,8 +5,12 @@
 }
 .kitchen-slider-main-image {
   width: 100%;
+  border-radius: 10px;
+  max-height: 500px;
+  height: 100%;
 }
 .kitchen-slider-main-image img {
+  border-radius: 10px;
   width: 100%;
   max-height: 500px;
 }
@@ -94,7 +98,7 @@
   .slider-nav-image {
     max-width: 90px;
   }
-    .kitchen-page {
+  .kitchen-page {
     padding-top: 80px;
   }
 }
