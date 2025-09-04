@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import "./KitchenSlider.css";
 import { useSwipeable } from "react-swipeable";
+import { SkeletonImage } from "../../../Skeleton/SkeletonImg";
 
 export function KitchenSlider({ currentKitchen }) {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -86,9 +87,10 @@ export function KitchenSlider({ currentKitchen }) {
   return (
     <div className="kitchen-slider">
       <div className="kitchen-slider-main-image" {...handlers}>
-        <img
+        <SkeletonImage
           src={currentKitchen.gallery[currentSlide].src}
           alt={`Кухня ${currentSlide + 1}`}
+          className="main-img-wrapper"
         />
       </div>
 
@@ -104,10 +106,10 @@ export function KitchenSlider({ currentKitchen }) {
             className={`slider-nav-image ${i === currentSlide ? "active" : ""}`}
             onClick={() => handleImageClick(i)}
           >
-            <img
+            <SkeletonImage
               src={el.src}
               alt={`Мініатюра ${i + 1}`}
-              onDragStart={(e) => e.preventDefault()}
+              className="thumb-img-wrapper"
             />
           </div>
         ))}

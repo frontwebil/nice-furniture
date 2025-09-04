@@ -75,28 +75,72 @@ export const kitchens = [
     ],
     fasadColors: [
       {
-        title: "Німфея альба",
-        color: "#F5F8F6",
+        title: "Шовково сірий",
+        color: "#a49f97",
       },
       {
-        title: "Сатин",
-        color: "#CCCCBE",
+        title: "Чорний янтар",
+        color: "#2c2d2f",
       },
       {
-        title: "Сірий камінь",
-        color: "#B5C1BD",
+        title: "Телегрей",
+        color: "#9a9a9a",
       },
       {
-        title: "Блакитний прибій",
-        color: "#A2D8DC",
+        title: "Сріблясто сірий",
+        color: "#989ba0",
       },
       {
-        title: "Сіра глина",
-        color: "#A5A392",
+        title: "Сіро бежевий",
+        color: "#8e7d5f",
       },
       {
-        title: "Шиншила грей",
-        color: "#A7BAB1",
+        title: "Сірий мох",
+        color: "#81807b",
+      },
+      {
+        title: "Світло сірий",
+        color: "#b1b0ab",
+      },
+      {
+        title: "Резедові зелений",
+        color: "#737f57",
+      },
+      {
+        title: "Платиново сірий",
+        color: "#878682",
+      },
+      {
+        title: "Пильно сірий",
+        color: "#6e6a69",
+      },
+      {
+        title: "Оливково зелений",
+        color: "#6e7458",
+      },
+      {
+        title: "Кремово білий",
+        color: "#cccbc6",
+      },
+      {
+        title: "Коричневий",
+        color: "#423628",
+      },
+      {
+        title: "Графітовий сірий",
+        color: "#464a4d",
+      },
+      {
+        title: "Білий",
+        color: "#cccccc",
+      },
+      {
+        title: "Бежевий",
+        color: "#d1c9ba",
+      },
+      {
+        title: "Базальтно сірий",
+        color: "#575757",
       },
     ],
   },

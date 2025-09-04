@@ -60,16 +60,23 @@
   align-items: center;
 }
 .hero-kitchen {
-  max-width: 300px;
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
   width: 100%;
+  max-width: 300px;
   min-height: 120px;
   position: relative;
+  border-radius: 10px;
+}
+.hero-kitchen img {
+  width: 100%;
+  height: auto;
+  display: block;
   border-radius: 10px;
 }
 .hero-kitchen div {
   position: absolute;
   left: -1px;
-  bottom: 3px;
+  bottom: 0px;
   background-color: #7798bf;
   border-radius: 0 10px 10px 10px;
   padding: 6px 15px;
