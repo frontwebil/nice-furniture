@@ -142,6 +142,11 @@ export const kitchens = [
         title: "Базальтно сірий",
         color: "#575757",
       },
+      {
+        title: "Дуб крафт золотий",
+        bgImage:true,
+        bgSrc: "/corpusColor/3.jpg",
+      },
     ],
   },
 ];

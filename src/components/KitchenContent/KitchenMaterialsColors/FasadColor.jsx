@@ -5,10 +5,18 @@ export function FasadColor({ currentKitchen }) {
       <div className="color-sections-container">
         {currentKitchen.fasadColors.map((el, i) => (
           <div className="color-sections-card" key={i}>
-            <div
-              className="color-sections-card-img"
-              style={{ background: `${el.color}` }}
-            ></div>
+            {el.bgImage ? (
+              <div
+                className="color-sections-card-img"
+                style={{ backgroundImage: `url(${el.bgSrc})` }}
+              ></div>
+            ) : (
+              <div
+                className="color-sections-card-img"
+                style={{ background: `${el.color}` }}
+              ></div>
+            )}
+
             <p className="text-xs" style={{ color: "#7C7C7C" }}>
               {el.title}
             </p>
