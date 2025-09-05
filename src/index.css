@@ -29,7 +29,12 @@ svg {
   max-width: 100%;
 }
 
-
+.kitchen-slider-main-image .skeleton {
+  min-height: 400px;
+}
+.slider-nav-image .skeleton{
+  min-height: 60px;
+}
 
 .skeleton {
   height: 100%;

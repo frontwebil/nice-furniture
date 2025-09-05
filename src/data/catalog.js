@@ -34,4 +34,25 @@ export const catalog = [
     isBest: false,
     id: 5,
   },
+  {
+    imgSrc: "/catalog/6.png",
+    title: "Альфа",
+    price: "18000 грн./м.п.",
+    isBest: false,
+    id: 6,
+  },
+  {
+    imgSrc: "/catalog/7.png",
+    title: "Елегант н",
+    price: "18000 грн./м.п.",
+    isBest: false,
+    id: 7,
+  },
+  {
+    imgSrc: "/catalog/8.png",
+    title: "Крафт",
+    price: "18000 грн./м.п.",
+    isBest: false,
+    id: 8,
+  },
 ];
