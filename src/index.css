@@ -29,6 +29,8 @@ svg {
   max-width: 100%;
 }
 
+
+
 .skeleton {
   height: 100%;
   overflow: hidden;
@@ -36,6 +38,7 @@ svg {
   background-size: 200% 100%;
   animation: skeleton-loading 1.5s infinite;
   border-radius: 10px;
+  max-height: 500px;
 }
 
 @keyframes skeleton-loading {

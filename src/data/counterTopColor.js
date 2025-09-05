@@ -70,5 +70,29 @@ export const counterTopColor = {
       title: "Білий айсберг",
       imgSrc: "/counterTopNormal/9.jpg",
     },
+    {
+      title: "Ательє світле",
+      imgSrc: "/counterTopNormal/10.jpg",
+    },
+    {
+      title: "Бетон чорний",
+      imgSrc: "/counterTopNormal/11.jpg",
+    },
+    {
+      title: "Вапняк кремовий",
+      imgSrc: "/counterTopNormal/12.jpg",
+    },
+    {
+      title: "Венато",
+      imgSrc: "/counterTopNormal/13.jpg",
+    },
+    {
+      title: "Галактика сіра",
+      imgSrc: "/counterTopNormal/14.jpg",
+    },
+    {
+      title: "Кремень чорний",
+      imgSrc: "/counterTopNormal/15.jpg",
+    },
   ],
 };

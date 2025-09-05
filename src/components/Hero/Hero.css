@@ -57,9 +57,10 @@
 .hero-kitchens {
   display: flex;
   gap: 20px;
-  align-items: center;
+  align-items: stretch;
 }
 .hero-kitchen {
+  min-width: 120px;
   background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
   width: 100%;
   max-width: 300px;

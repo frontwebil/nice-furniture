@@ -32,9 +32,11 @@ export function KithcenPage() {
             <KitchenInfo currentKitchen={currentKitchen} />
           </div>
           <div className="kitchen-page-info">
-            <p className="gray text-xs" style={{ whiteSpace: "pre-wrap" }}>
-              {currentKitchen.descriptions}
-            </p>
+            <p
+              className="gray text-xs"
+              style={{ whiteSpace: "pre-wrap" }}
+              dangerouslySetInnerHTML={{ __html: currentKitchen.descriptions }}
+            />
             <KitchenInfoMaterials currentKitchen={currentKitchen} />
             <KitchenMaterialsColors currentKitchen={currentKitchen} />
           </div>
