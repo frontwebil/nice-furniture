@@ -4,7 +4,7 @@ import "./Questions.css"
 
 export function Questions() {
   return (
-    <section className="questions">
+    <section className="questions" id="questions">
       <div className="container">
         <h3 className="text-lg" style={{textAlign:'center'}}>Найчастіші <span className="font-bold">питання</span></h3>
         <div className="questions-cards">

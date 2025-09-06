@@ -2,7 +2,7 @@ import "./HowBornKitchen.css";
 
 export function HowBornKitchen() {
   return (
-    <section className="howBornKitchen">
+    <section className="howBornKitchen" id="howBorn">
       <div className="container">
         <div className="howBornKitchen-content">
           <div className="video-container">

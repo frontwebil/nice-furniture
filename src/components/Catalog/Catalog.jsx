@@ -6,7 +6,7 @@ export function Catalog() {
   const [cardPerView, setCardPerView] = useState(8);
 
   return (
-    <section className="catalog">
+    <section className="catalog" id="catalog">
       <div className="container">
         <h3 className="text-lg">
           Наші найкращі моделі, які підкорили серця вже більш ніж{" "}

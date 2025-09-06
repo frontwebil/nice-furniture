@@ -8,7 +8,7 @@ export function FasadColor({ currentKitchen }) {
             {el.bgImage ? (
               <div
                 className="color-sections-card-img"
-                style={{ backgroundImage: `url(${el.bgSrc})` }}
+                style={{ backgroundImage: `url(${el.imgSrc})` }}
               ></div>
             ) : (
               <div

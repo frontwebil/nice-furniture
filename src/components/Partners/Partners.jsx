@@ -3,7 +3,7 @@ import "./Partners.css"
 
 export function Partners() {
   return (
-    <section className="partners">
+    <section className="partners" id="partners">
       <div className="container">
         <h3 className="text-lg" style={{textAlign:'center'}}>Наші <span className="font-bold">замовники</span></h3>
         <div className="partners-grid">

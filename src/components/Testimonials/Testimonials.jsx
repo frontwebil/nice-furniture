@@ -46,7 +46,7 @@ export function Testimonials() {
   };
 
   return (
-    <section className="testimonials">
+    <section className="testimonials" id="testimonials">
       <div className="container">
         <h2 className="testimonials-title text-xl font-bold">
           770+ відгуків на Google картах <br />

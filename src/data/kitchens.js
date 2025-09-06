@@ -746,7 +746,7 @@ export const kitchens = [
       },
       {
         title: "Блакитний прибій",
-        color: "#a7b4bb",
+        color: "#87b9d4",
       },
     ],
   },
@@ -921,6 +921,794 @@ export const kitchens = [
     ],
     fasadColors: [
       {
+        title: "Сірий графіт",
+        imgSrc: "/corpusColor/6.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Сіра мишка",
+        imgSrc: "/corpusColor/4.jpg",
+        bgImage: true,
+      },
+      {
+        bgImage: true,
+        title: "Німфея альба",
+        imgSrc: "/corpusColor/1.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Кашемір",
+        imgSrc: "/corpusColor/2.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Дуб крафт табак",
+        imgSrc: "/corpusColor/8.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Дуб артизан",
+        imgSrc: "/corpusColor/9.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Дуб крафт сірий",
+        imgSrc: "/counterTopSmall/7.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Дуб крафт золотий",
+        imgSrc: "/counterTopNormal/1.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Дуб крафт білий",
+        imgSrc: "/counterTopNormal/4.jpg",
+      },
+    ],
+  },
+  {
+    title: "Горизонт",
+    id: 9,
+    price: "18000 грн./м.п",
+    oldPrice: "32 436 грн. м.п.",
+    descriptions: `
+
+    `,
+    materials: `Корпус: ЛДСП 16 мм
+Фасады: ЛДСП 18 мм
+Кромка фасадов: ПВХ 1 мм`,
+    furniture: `Ручка: пластиковая`,
+    colorEdgesFacad: `Цвет кромки соответствует цвету фасада, кроме цвета Бетон Темный, который идет с кромкой в цвете Антрацит.`,
+    gallery: [
+      {
+        type: "img",
+        src: "/kitchenImg/9/1.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/9/2.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/9/3.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/9/4.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/9/5.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/9/6.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/9/7.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/9/8.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/9/9.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/9/10.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/9/11.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/9/12.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/9/13.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/9/14.webp",
+      },
+    ],
+    fasadColors: [
+      {
+        title: "Сутінковий блакитний",
+        color: "#a8b3b2",
+      },
+      {
+        title: "Сірий графіт",
+        color: "#353233",
+      },
+      {
+        title: "Сіра глина",
+        color: "#99908a",
+      },
+      {
+        title: "Сатин",
+        color: "#b2aea9",
+      },
+      {
+        title: "Зелений димчастий",
+        color: "#6b7466",
+      },
+      {
+        title: "Блакитний прибій",
+        color: "#87b9d4",
+      },
+      {
+        title: "Рокфорд світлий",
+        imgSrc: "/kitchenImg/fasadColor/1.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Рокфорд темний",
+        imgSrc: "/kitchenImg/fasadColor/2.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Індастріал",
+        imgSrc: "/kitchenImg/fasadColor/3.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Дуб урбан ойстер",
+        imgSrc: "/kitchenImg/fasadColor/4.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Дуб приморський сатиновий",
+        imgSrc: "/kitchenImg/fasadColor/5.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Дуб клабхаус сірий",
+        imgSrc: "/kitchenImg/fasadColor/6.jpg",
+        bgImage: true,
+      },
+    ],
+  },
+  {
+    title: "Модест",
+    id: 10,
+    price: "18000 грн./м.п",
+    oldPrice: "32 436 грн. м.п.",
+    descriptions: `
+
+    `,
+    materials: `Корпус: ЛДСП 16 мм
+Фасады: ЛДСП 18 мм
+Кромка фасадов: ПВХ 1 мм`,
+    furniture: `Ручка: пластиковая`,
+    colorEdgesFacad: `Цвет кромки соответствует цвету фасада, кроме цвета Бетон Темный, который идет с кромкой в цвете Антрацит.`,
+    gallery: [
+      {
+        type: "img",
+        src: "/kitchenImg/10/1.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/10/2.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/10/3.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/10/4.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/10/5.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/10/6.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/10/7.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/10/8.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/10/9.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/10/10.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/10/11.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/10/12.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/10/13.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/10/14.webp",
+      },
+    ],
+    fasadColors: [
+      {
+        title: "Шиншила грей",
+        color: "#a3a1a0",
+      },
+      {
+        title: "Сіра мишка",
+        color: "#b0b0b0",
+      },
+      {
+        title: "Німфея альба",
+        color: "#cecece",
+      },
+      {
+        bgImage: true,
+        title: "Ясен серфсайд",
+        imgSrc: "/kitchenImg/fasadColor/7.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Дуб сонома трюфель",
+        imgSrc: "/kitchenImg/fasadColor/8.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Артвуд світлий",
+        imgSrc: "/kitchenImg/fasadColor/9.jpg",
+      },
+      {
+        title: "Кашемір",
+        color: "#c5bfb8",
+      },
+      {
+        bgImage: true,
+        title: "Дуб крафт золото",
+        imgSrc: "/counterTopNormal/1.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Дуб артизан",
+        imgSrc: "/corpusColor/9.jpg",
+      },
+      {
+        title: "Антрацит",
+        color: "#717578",
+      },
+      {
+        bgImage: true,
+        title: "Венге магія",
+        imgSrc: "/corpusColor/5.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Дуб сонома",
+        imgSrc: "/corpusColor/7.jpg",
+      },
+    ],
+  },
+  {
+    title: "Контемп н",
+    id: 11,
+    price: "18000 грн./м.п",
+    oldPrice: "32 436 грн. м.п.",
+    descriptions: `
+
+    `,
+    materials: `Корпус: ЛДСП 16 мм
+Фасады: ЛДСП 18 мм
+Кромка фасадов: ПВХ 1 мм`,
+    furniture: `Ручка: пластиковая`,
+    colorEdgesFacad: `Цвет кромки соответствует цвету фасада, кроме цвета Бетон Темный, который идет с кромкой в цвете Антрацит.`,
+    gallery: [
+      {
+        type: "img",
+        src: "/kitchenImg/11/1.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/11/2.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/11/3.webp",
+      },
+    ],
+    fasadColors: [
+      {
+        bgImage: true,
+        title: "Ясен жемчужний",
+        imgSrc: "/kitchenImg/fasadColor/10.jpg",
+      },
+      {
+        title: "Чорний глянець",
+        color: "#222222",
+      },
+      {
+        title: "Хакі",
+        color: "#394032",
+      },
+      {
+        title: "Хакі ментол",
+        color: "#acb9a2",
+      },
+      {
+        bgImage: true,
+        title: "Спил сірий",
+        imgSrc: "/kitchenImg/fasadColor/11.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Спил білий",
+        imgSrc: "/kitchenImg/fasadColor/12.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Сонома світлий",
+        imgSrc: "/kitchenImg/fasadColor/13.jpg",
+      },
+      {
+        title: "Софт мигдаль",
+        color: "#a69f97",
+      },
+      {
+        title: "Слонова кістка глянець",
+        color: "#c1bc9f",
+      },
+      {
+        title: "Сірий софт",
+        color: "#a2a19f",
+      },
+      {
+        title: "Реоліт",
+        color: "#a8a097",
+      },
+      {
+        title: "Мусон",
+        color: "#b2babc",
+      },
+      {
+        title: "Моко",
+        color: "#bdb6ab",
+      },
+      {
+        title: "Мармур темний",
+        color: "#53514d",
+      },
+      {
+        title: "Лагуна софт",
+        color: "#aab1b1",
+      },
+      {
+        title: "Керамік",
+        color: "#b9b3ae",
+      },
+      {
+        title: "Дуб полярний",
+        imgSrc: "/kitchenImg/fasadColor/14.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Графіт софт",
+        color: "#5c5c5c",
+      },
+      {
+        title: "Ваніль супермат",
+        color: "#5c5c5c",
+      },
+      {
+        title: "Білий",
+        color: "#e0deda",
+      },
+      {
+        title: "Білий туман",
+        color: "#f0ece6",
+      },
+      {
+        title: "Білий софт",
+        color: "#dadada",
+      },
+      {
+        title: "Білий іній",
+        color: "#d9d9d9",
+      },
+      {
+        title: "Базальт",
+        color: "#6d655e",
+      },
+      {
+        title: "Антроцит",
+        color: "#4a4846",
+      },
+      {
+        title: "Айріш",
+        color: "#9e8f7b",
+      },
+      {
+        title: "Агат",
+        color: "#9d9d9d",
+      },
+      {
+        title: "Біле дерево",
+        imgSrc: "/kitchenImg/fasadColor/15.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Бетон сірий",
+        imgSrc: "/kitchenImg/fasadColor/16.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Бетон бежевий",
+        imgSrc: "/kitchenImg/fasadColor/17.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Бетон антроцит",
+        imgSrc: "/kitchenImg/fasadColor/18.jpg",
+        bgImage: true,
+      },
+    ],
+  },
+  {
+    title: "Вінтаж",
+    id: 12,
+    price: "18000 грн./м.п",
+    oldPrice: "32 436 грн. м.п.",
+    descriptions: `
+
+    `,
+    materials: `Корпус: ЛДСП 16 мм
+Фасады: ЛДСП 18 мм
+Кромка фасадов: ПВХ 1 мм`,
+    furniture: `Ручка: пластиковая`,
+    colorEdgesFacad: `Цвет кромки соответствует цвету фасада, кроме цвета Бетон Темный, который идет с кромкой в цвете Антрацит.`,
+    gallery: [
+      {
+        type: "img",
+        src: "/kitchenImg/12/1.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/12/2.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/12/3.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/12/4.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/12/5.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/12/6.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/12/7.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/12/8.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/12/9.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/12/10.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/12/11.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/12/12.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/12/13.webp",
+      },
+    ],
+    fasadColors: [
+      {
+        title: "Сірий графіт",
+        color: "#353233",
+      },
+      {
+        title: "Кашемір",
+        color: "#b4ada5",
+      },
+      {
+        bgImage: true,
+        title: "Скандинавське дерево сіре",
+        imgSrc: "/kitchenImg/fasadColor/19.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Скандинавське дерево біле",
+        imgSrc: "/kitchenImg/fasadColor/20.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Індастріал",
+        imgSrc: "/kitchenImg/fasadColor/21.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Вугілний камінь",
+        imgSrc: "/kitchenImg/fasadColor/22.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Бетонний камінь",
+        imgSrc: "/kitchenImg/fasadColor/23.jpg",
+      },
+    ],
+  },
+  {
+    title: "Еліт",
+    id: 13,
+    price: "18000 грн./м.п",
+    oldPrice: "32 436 грн. м.п.",
+    descriptions: `
+
+    `,
+    materials: `Корпус: ЛДСП 16 мм
+Фасады: ЛДСП 18 мм
+Кромка фасадов: ПВХ 1 мм`,
+    furniture: `Ручка: пластиковая`,
+    colorEdgesFacad: `Цвет кромки соответствует цвету фасада, кроме цвета Бетон Темный, который идет с кромкой в цвете Антрацит.`,
+    gallery: [
+      {
+        type: "img",
+        src: "/kitchenImg/13/1.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/13/2.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/13/3.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/13/4.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/13/5.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/13/6.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/13/7.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/13/8.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/13/9.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/13/10.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/13/11.webp",
+      },
+    ],
+    fasadColors: [
+      {
+        title: "Сірий софт",
+        color: "#98a7a0",
+      },
+      {
+        title: "Лагуна софт",
+        color: "#98a7a0",
+      },
+      {
+        title: "Білий софт",
+        color: "#b3c8b7",
+      },
+      {
+        title: "Олива супермат",
+        color: "#495e13",
+      },
+      {
+        bgImage: true,
+        title: "Місячне сяйво",
+        imgSrc: "/kitchenImg/fasadColor/24.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Північне сяйво глянець",
+        imgSrc: "/kitchenImg/fasadColor/25.jpg",
+      },
+      {
+        title: "Асфальт",
+        color: "#314045",
+      },
+      {
+        title: "Софт мигдаль",
+        color: "#a69f97",
+      },
+      {
+        title: "Хакі ментол",
+        color: "#73bc8f",
+      },
+      {
+        title: "Айворі супермат",
+        color: "#a19f86",
+      },
+      {
+        bgImage: true,
+        title: "Ультрамарин",
+        imgSrc: "/kitchenImg/fasadColor/26.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Блакитний металік",
+        imgSrc: "/kitchenImg/fasadColor/27.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Мурена супермат",
+        imgSrc: "/kitchenImg/fasadColor/28.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Чорний глянець перламутр",
+        imgSrc: "/kitchenImg/fasadColor/29.jpg",
+      },
+      {
+        bgImage: true,
+        title: "Титан білий глянець",
+        imgSrc: "/kitchenImg/fasadColor/30.jpg",
+      },
+      {
+        title: "Браун супермат",
+        color: "#23241f",
+      },
+      {
+        title: "Непал",
+        color: "#5e5834",
+      },
+      {
+        title: "Графіт софт",
+        color: "#122023",
+      },
+      {
+        bgImage: true,
+        title: "Титан чорний глянець",
+        imgSrc: "/kitchenImg/fasadColor/31.jpg",
+      },
+    ],
+  },
+  {
+    title: "Брайт",
+    id: 14,
+    price: "18000 грн./м.п",
+    oldPrice: "32 436 грн. м.п.",
+    descriptions: `
+
+    `,
+    materials: `Корпус: ЛДСП 16 мм
+Фасады: ЛДСП 18 мм
+Кромка фасадов: ПВХ 1 мм`,
+    furniture: `Ручка: пластиковая`,
+    colorEdgesFacad: `Цвет кромки соответствует цвету фасада, кроме цвета Бетон Темный, который идет с кромкой в цвете Антрацит.`,
+    gallery: [
+      {
+        type: "img",
+        src: "/kitchenImg/14/1.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/14/2.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/14/3.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/14/4.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/14/5.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/14/6.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/14/7.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/14/8.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/14/9.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/14/10.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/14/11.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/14/12.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/14/13.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/14/14.webp",
+      },
+    ],
+    fasadColors: [
+      {
         title: "Шовково сірий",
         color: "#a49f97",
       },
@@ -987,6 +1775,325 @@ export const kitchens = [
       {
         title: "Базальтно сірий",
         color: "#575757",
+      },
+    ],
+  },
+  {
+    title: "Софт",
+    id: 15,
+    price: "18000 грн./м.п",
+    oldPrice: "32 436 грн. м.п.",
+    descriptions: `
+
+    `,
+    materials: `Корпус: ЛДСП 16 мм
+Фасады: ЛДСП 18 мм
+Кромка фасадов: ПВХ 1 мм`,
+    furniture: `Ручка: пластиковая`,
+    colorEdgesFacad: `Цвет кромки соответствует цвету фасада, кроме цвета Бетон Темный, который идет с кромкой в цвете Антрацит.`,
+    gallery: [
+      {
+        type: "img",
+        src: "/kitchenImg/15/1.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/15/2.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/15/3.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/15/4.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/15/5.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/15/6.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/15/7.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/15/8.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/15/9.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/15/10.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/15/11.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/15/12.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/15/13.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/15/14.webp",
+      },
+    ],
+    fasadColors: [
+      {
+        title: "Шовково сірий",
+        color: "#a49f97",
+      },
+      {
+        title: "Чорний янтар",
+        color: "#2c2d2f",
+      },
+      {
+        title: "Телегрей",
+        color: "#9a9a9a",
+      },
+      {
+        title: "Сріблясто сірий",
+        color: "#989ba0",
+      },
+      {
+        title: "Сіро бежевий",
+        color: "#8e7d5f",
+      },
+      {
+        title: "Сірий мох",
+        color: "#81807b",
+      },
+      {
+        title: "Світло сірий",
+        color: "#b1b0ab",
+      },
+      {
+        title: "Резедові зелений",
+        color: "#737f57",
+      },
+      {
+        title: "Платиново сірий",
+        color: "#878682",
+      },
+      {
+        title: "Пильно сірий",
+        color: "#6e6a69",
+      },
+      {
+        title: "Оливково зелений",
+        color: "#6e7458",
+      },
+      {
+        title: "Кремово білий",
+        color: "#cccbc6",
+      },
+      {
+        title: "Коричневий",
+        color: "#423628",
+      },
+      {
+        title: "Графітовий сірий",
+        color: "#464a4d",
+      },
+      {
+        title: "Білий",
+        color: "#cccccc",
+      },
+      {
+        title: "Бежевий",
+        color: "#d1c9ba",
+      },
+      {
+        title: "Базальтно сірий",
+        color: "#575757",
+      },
+    ],
+  },
+  {
+    title: "Гламур",
+    id: 16,
+    price: "18000 грн./м.п",
+    oldPrice: "32 436 грн. м.п.",
+    descriptions: `
+
+    `,
+    materials: `Корпус: ЛДСП 16 мм
+Фасады: ЛДСП 18 мм
+Кромка фасадов: ПВХ 1 мм`,
+    furniture: `Ручка: пластиковая`,
+    colorEdgesFacad: `Цвет кромки соответствует цвету фасада, кроме цвета Бетон Темный, который идет с кромкой в цвете Антрацит.`,
+    gallery: [
+      {
+        type: "img",
+        src: "/kitchenImg/16/1.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/16/2.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/16/3.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/16/4.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/16/5.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/16/6.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/16/7.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/16/8.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/16/9.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/16/10.webp",
+      },
+      {
+        type: "img",
+        src: "/kitchenImg/16/11.webp",
+      },
+    ],
+    fasadColors: [
+      {
+        title: "Дуб полярний",
+        imgSrc: "/kitchenImg/fasadColor/14.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Білий металік",
+        color: "#E2E8EB",
+      },
+      {
+        title: "Білий глянець",
+        color: "#E8F0F2",
+      },
+      {
+        title: "Червоний глянець",
+        color: "#C80000",
+      },
+      {
+        title: "Бетон бежевий",
+        imgSrc: "/kitchenImg/fasadColor/32.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Слонова кістка глянець",
+        color: "#c1bc9f",
+      },
+      {
+        title: "Сакура металік",
+        imgSrc: "/kitchenImg/fasadColor/33.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Дуб англійський",
+        imgSrc: "/kitchenImg/fasadColor/34.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Ліловий металік",
+        imgSrc: "/kitchenImg/fasadColor/35.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Чорний глянець",
+        color: "#222222",
+      },
+      {
+        title: "Бордо 140",
+        imgSrc: "/kitchenImg/fasadColor/36.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Бетон сірий",
+        imgSrc: "/kitchenImg/fasadColor/37.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Дуб сніжний",
+        imgSrc: "/kitchenImg/fasadColor/38.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Мрамор темний",
+        imgSrc: "/kitchenImg/fasadColor/39.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Сірий металік",
+        imgSrc: "/kitchenImg/fasadColor/40.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Лайм металік",
+        imgSrc: "/kitchenImg/fasadColor/41.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Білий браш",
+        imgSrc: "/kitchenImg/fasadColor/42.jpg",
+        bgImage: true,
+      },
+      {
+        bgImage: true,
+        title: "Дуб артизан",
+        imgSrc: "/corpusColor/9.jpg",
+      },
+      {
+        title: "Мармур античний темний",
+        imgSrc: "/kitchenImg/fasadColor/43.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Бетон антроцит",
+        imgSrc: "/kitchenImg/fasadColor/44.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Аквамарин металік",
+        imgSrc: "/kitchenImg/fasadColor/45.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Шоколад глянець",
+        imgSrc: "/kitchenImg/fasadColor/46.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Розпил графіт",
+        imgSrc: "/kitchenImg/fasadColor/47.jpg",
+        bgImage: true,
+      },
+      {
+        title: "Чорна текстура софттач",
+        imgSrc: "/kitchenImg/fasadColor/48.jpg",
+        bgImage: true,
       },
     ],
   },

@@ -78,30 +78,62 @@ export function Header() {
         </div>
       </div>
       <div className={`burger-menu ${isOpenBurger && "active"}`}>
-        <a href="#" className="text-base font-medium nav-links">
+        <Link
+          to="/#catalog"
+          className="text-base font-medium nav-links"
+          onClick={() => setIsOpenBurger(false)}
+        >
           Наші найкращі моделі
-        </a>
-        <a href="#" className="text-base font-medium nav-links">
+        </Link>
+        <Link
+          to="/#seeMore"
+          className="text-base font-medium nav-links"
+          onClick={() => setIsOpenBurger(false)}
+        >
           Про компанію
-        </a>
-        <a href="#" className="text-base font-medium nav-links">
+        </Link>
+        <Link
+          to="/#howBorn"
+          className="text-base font-medium nav-links"
+          onClick={() => setIsOpenBurger(false)}
+        >
           Як народжується кухня
-        </a>
-        <a href="#" className="text-base font-medium nav-links">
+        </Link>
+        <Link
+          to="/#testimonials"
+          className="text-base font-medium nav-links"
+          onClick={() => setIsOpenBurger(false)}
+        >
           Відгуки про нашу роботу
-        </a>
-        <a href="#" className="text-base font-medium nav-links">
+        </Link>
+        <Link
+          to="/#quiz"
+          className="text-base font-medium nav-links"
+          onClick={() => setIsOpenBurger(false)}
+        >
           Розрахуйте ціну своєї кухні
-        </a>
-        <a href="#" className="text-base font-medium nav-links">
+        </Link>
+        <Link
+          to="/#about-us"
+          className="text-base font-medium nav-links"
+          onClick={() => setIsOpenBurger(false)}
+        >
           Про нас - честно і без прикрас
-        </a>
-        <a href="#" className="text-base font-medium nav-links">
+        </Link>
+        <Link
+          to="/#partners"
+          className="text-base font-medium nav-links"
+          onClick={() => setIsOpenBurger(false)}
+        >
           наші замовники
-        </a>
-        <a href="#" className="text-base font-medium nav-links">
+        </Link>
+        <Link
+          to="/#questions"
+          className="text-base font-medium nav-links"
+          onClick={() => setIsOpenBurger(false)}
+        >
           найчастіші питання
-        </a>
+        </Link>
         <div className="mobile-header-column">
           <a href="tel:0444900000" className="font-semiBold">
             (044) 490-00-00

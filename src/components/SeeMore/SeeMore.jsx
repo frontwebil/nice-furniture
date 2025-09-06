@@ -2,7 +2,7 @@ import "./SeeMore.css"
 
 export function SeeMore() {
   return (
-    <section className="seeMore">
+    <section className="seeMore" id="seeMore">
       <div className="container">
         <div className="seeMore-content">
           <div className="video-container">

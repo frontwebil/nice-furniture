@@ -2,7 +2,7 @@ import "./AboutUs.css"
 
 export function AboutUs() {
   return (
-    <section className="about-us">
+    <section className="about-us" id="about-us">
       <div className="container">
         <div className="about-us-main-image">
           <img src="/about-us/main.png" alt="" />

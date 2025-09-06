@@ -35,7 +35,7 @@ export function CalculationQuiz() {
   };
 
   return (
-    <section className="calculationQuiz">
+    <section className="calculationQuiz" id="quiz">
       <div className="container">
         <h2 className="text-lg font-medium" style={{ textAlign: "center" }}>
           <span className="font-bold">Розрахуйте ціну</span> своєї кухні
