@@ -5,7 +5,7 @@ export function KitchenInfoMaterials({ currentKitchen }) {
     <div className="kitchen-info-materials">
       <div className="kitchen-info-materials-column">
         <div className="kitchen-info-materials-column-title text-xs">
-          Материалы
+          Корпус
         </div>
         <p
           className="gray text-xs"
@@ -15,7 +15,7 @@ export function KitchenInfoMaterials({ currentKitchen }) {
       </div>
       <div className="kitchen-info-materials-column">
         <div className="kitchen-info-materials-column-title text-xs">
-          Фурнитура
+          Фурнітура
         </div>
         <p
           className="gray text-xs"
@@ -25,7 +25,7 @@ export function KitchenInfoMaterials({ currentKitchen }) {
       </div>
       <div className="kitchen-info-materials-column">
         <div className="kitchen-info-materials-column-title text-xs">
-          Цвета кромки фасадов
+          Фасади
         </div>
         <p
           className="gray text-xs"

@@ -9,7 +9,6 @@ export function CatalogCard({ kitchen }) {
           {kitchen.isBest && <p className="card-img-sticker">BEST</p>}
         </div>
         <p className="catalog-card-title">{kitchen.title}</p>
-        <p className="text-xxs">Місце, де кожен день починається з аромату кави та відчуття затишку</p>
       </div>
       <p className="catalog-card-price">{kitchen.price}</p>
     </Link>
