@@ -13,7 +13,7 @@ export function Quiz1({ setNextStep, setQuizResaults, quizResaults }) {
         onClick={() => handleSelect("Кутова")}
       >
         <div className="calculationQuiz-card-img-container">
-          <img src="/quiz/1/1.png" alt="Кутова" />
+          <img src="/quiz/1/1.webp" alt="Кутова" />
         </div>
         <p className="text-xs font-medium">Кутова</p>
       </div>
@@ -25,7 +25,7 @@ export function Quiz1({ setNextStep, setQuizResaults, quizResaults }) {
         onClick={() => handleSelect("П-подібна")}
       >
         <div className="calculationQuiz-card-img-container">
-          <img src="/quiz/1/2.png" alt="П-подібна" />
+          <img src="/quiz/1/2.webp" alt="П-подібна" />
         </div>
         <p className="text-xs font-medium">П-подібна</p>
       </div>
@@ -37,7 +37,7 @@ export function Quiz1({ setNextStep, setQuizResaults, quizResaults }) {
         onClick={() => handleSelect("Пряма")}
       >
         <div className="calculationQuiz-card-img-container">
-          <img src="/quiz/1/3.png" alt="Пряма" />
+          <img src="/quiz/1/3.webp" alt="Пряма" />
         </div>
         <p className="text-xs font-medium">Пряма</p>
       </div>

@@ -97,7 +97,6 @@ header.active {
 
 .burger-menu a {
   opacity: 0;
-  text-transform: uppercase;
   text-decoration: none;
   color: transparent;
   transition: opacity 0.2s ease-in-out;

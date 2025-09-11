@@ -7,7 +7,7 @@ export function Quiz7() {
           <p className="text-xs">Наш менеджер зв’яжеться з Вами</p>
         </div>
         <div className="calculationQuiz-cards-thank-text">
-          <div className="calculationQuiz-card-small-discount">Знижка 20%</div>
+          <div className="calculationQuiz-card-small-discount">Знижка 5%</div>
           <a href="/" className="calculationQuiz-card-small-getCons">
             <p className="text-xs font-semiBold">Готово</p>
           </a>

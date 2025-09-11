@@ -53,7 +53,7 @@ export function Quiz6({ setNextStep, setQuizResaults, quizResaults }) {
           }}
           required
         />
-        <div className="calculationQuiz-card-small-discount">Знижка 20%</div>
+        <div className="calculationQuiz-card-small-discount">Знижка 5%</div>
         <input
           type="tel"
           className="calculationQuiz-card-small-input"

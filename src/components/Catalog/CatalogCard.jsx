@@ -10,7 +10,7 @@ export function CatalogCard({ kitchen }) {
         </div>
         <p className="catalog-card-title">{kitchen.title}</p>
       </div>
-      <p className="catalog-card-price">{kitchen.price}</p>
+      <p className="catalog-card-price">{kitchen.price} <span className="m-p">грн./м.п.</span></p>
     </Link>
   );
 }

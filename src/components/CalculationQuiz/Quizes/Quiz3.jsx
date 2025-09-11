@@ -12,6 +12,9 @@ export function Quiz3({ setNextStep, setQuizResaults, quizResaults }) {
         }`}
         onClick={() => handleSelect("Термопластик")}
       >
+        <div className="calculationQuiz-card-img-container">
+          <img src="/quiz/3/1.webp" alt="Термопластик" />
+        </div>
         <p className="text-xs font-medium">Термопластик</p>
       </div>
 
@@ -21,6 +24,9 @@ export function Quiz3({ setNextStep, setQuizResaults, quizResaults }) {
         }`}
         onClick={() => handleSelect("Акрил")}
       >
+        <div className="calculationQuiz-card-img-container">
+          <img src="/quiz/3/2.webp" alt="Акрил" />
+        </div>
         <p className="text-xs font-medium">Акрил</p>
       </div>
 
@@ -30,6 +36,9 @@ export function Quiz3({ setNextStep, setQuizResaults, quizResaults }) {
         }`}
         onClick={() => handleSelect("Кварц")}
       >
+        <div className="calculationQuiz-card-img-container">
+          <img src="/quiz/3/3.webp" alt="Кварц" />
+        </div>
         <p className="text-xs font-medium">Кварц</p>
       </div>
 
@@ -39,6 +48,9 @@ export function Quiz3({ setNextStep, setQuizResaults, quizResaults }) {
         }`}
         onClick={() => handleSelect("Ще не визначились")}
       >
+        <div className="calculationQuiz-card-img-container">
+          <img src="/quiz/1/4.png" alt="?" />
+        </div>
         <p className="text-xs font-medium">Ще не визначились</p>
       </div>
     </div>
