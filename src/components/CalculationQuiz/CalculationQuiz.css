@@ -337,6 +337,12 @@ body.loading {
 }
 
 @media only screen and (max-width: 680px) {
+  .calculationQuiz-card img {
+    width: 100%;
+    object-fit: contain;
+    max-height: 120px;
+  }
+
   .quiz-arrow-next {
     z-index: 5;
     right: -20px;
