@@ -31,21 +31,21 @@ export function Footer() {
             </p>
           </a>
           <div className="footer-links-social">
-            <a href="">
+            <a href="https://www.facebook.com/faynimebli/">
               <img
                 src="/footer/fb.svg"
                 alt=""
                 className="footer-links-social-icon"
               />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/fayni.mebli?igsh=cnRlcGhvbDloYmoy">
               <img
                 src="/footer/inst.svg"
                 alt=""
                 className="footer-links-social-icon"
               />
             </a>
-            <a href="">
+            <a href="https://www.youtube.com/user/faynimebli">
               <img
                 src="/footer/yt.svg"
                 alt=""

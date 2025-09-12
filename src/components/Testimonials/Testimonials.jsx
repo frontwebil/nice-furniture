@@ -70,9 +70,9 @@ export function Testimonials() {
             <img src={`${el}`} key={id} onClick={() => handleClickImage(id)} />
           ))}
         </div>
-        <div className="button-get-cons-testimonials">
+        {/* <div className="button-get-cons-testimonials">
           <ButtonCalculation text={"Зв’язатись з менеджером"} />
-        </div>
+        </div> */}
       </div>
     </section>
   );

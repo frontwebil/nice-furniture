@@ -21,7 +21,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
 
@@ -176,7 +176,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
 
@@ -361,7 +361,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
     `,
@@ -497,7 +497,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
 
@@ -620,7 +620,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
 
@@ -747,7 +747,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
     `,
@@ -863,7 +863,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
     `,
@@ -985,7 +985,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
 
@@ -1116,7 +1116,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
 
@@ -1263,7 +1263,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
     `,
@@ -1408,7 +1408,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
 
@@ -1588,7 +1588,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
 
@@ -1708,7 +1708,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
 
@@ -1871,7 +1871,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
 
@@ -2030,7 +2030,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
 
@@ -2191,7 +2191,7 @@ export const kitchens = [
 Термін виготовлення – від 15 до 30 робочих днів (без зайвого очікування).
 Гарантія на всі елементи – 5 років.
 
-Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://maps.app.goo.gl/SiwKiiwnVuix61YaA?g_st=ipc" target="_blank" style="color:blue">посиланням тут</a>.
+Всі реальні відгуки наших клієнтів ви можете почитати за <a href="https://www.google.com/maps/place/%D0%A4%D0%B0%D0%B9%D0%BD%D1%96+%D0%9C%D0%B5%D0%B1%D0%BB%D1%96/@50.456018,30.3853357,17z/data=!4m18!1m9!3m8!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!2z0KTQsNC50L3RliDQnNC10LHQu9GW!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl!3m7!1s0x40d4cc6029c45b13:0x40306c30dbb5d875!8m2!3d50.456018!4d30.387916!9m1!1b1!16s%2Fg%2F11xbqxxdl?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color:blue">посиланням тут</a>.
 Всі живі фото наших кухонь в клієнтів можете переглянути за <a href="https://drive.google.com/drive/folders/1CuoxrPAPlDsImqM0NpRE7MiWqTEm-nLW" target="_blank" style="color:blue">посиланням тут</a>.
 <span class="font-bold">АКЦІЯ! </span> При купівлі кухні – посудомийна машина в подарунок. Деталі акції уточнюйте у менеджера.
     `,

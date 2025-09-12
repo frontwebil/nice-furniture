@@ -21,14 +21,14 @@ export function Header() {
           </Link>
           <div className="header-right">
             <div className="header-social-icons">
-              <a href="">
+              <a href="https://www.instagram.com/fayni.mebli?igsh=cnRlcGhvbDloYmoy">
                 <img
                   src="/header/ins.svg"
                   alt=""
                   className="header-social-icon"
                 />
               </a>
-              <a href="">
+              <a href="tel:(068) 220-22-91">
                 <img
                   src="/header/tel.svg"
                   alt=""
@@ -78,7 +78,7 @@ export function Header() {
         </div>
       </div>
       <div className={`burger-menu ${isOpenBurger && "active"}`}>
-        <Link
+        {/* <Link
           to="/#catalog"
           className="text-base font-medium nav-links"
           onClick={() => setIsOpenBurger(false)}
@@ -133,7 +133,7 @@ export function Header() {
           onClick={() => setIsOpenBurger(false)}
         >
           найчастіші питання
-        </Link>
+        </Link> */}
         <div className="mobile-header-column">
           <a href="tel:0444900000" className="font-semiBold">
             (044) 490-00-00
@@ -157,21 +157,21 @@ export function Header() {
             м. Київ, вул. Святошинська, 1
           </a>
           <div className="footer-links-social">
-            <a href="">
+            <a href="https://www.facebook.com/faynimebli/">
               <img
                 src="/footer/fb.svg"
                 alt=""
                 className="footer-links-social-icon"
               />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/fayni.mebli?igsh=cnRlcGhvbDloYmoy">
               <img
                 src="/footer/inst.svg"
                 alt=""
                 className="footer-links-social-icon"
               />
             </a>
-            <a href="">
+            <a href="https://www.youtube.com/user/faynimebli">
               <img
                 src="/footer/yt.svg"
                 alt=""
