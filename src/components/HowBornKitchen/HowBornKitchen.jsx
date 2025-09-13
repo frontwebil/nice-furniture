@@ -7,7 +7,7 @@ export function HowBornKitchen() {
         <div className="howBornKitchen-content">
           <div className="video-container">
             <iframe
-              src="https://www.youtube.com/embed/iTJcwGOfDHY?si=Ml7-b9MYfrbXEnEN"
+              src="https://www.youtube.com/embed/3z0VkZg1e_Q?si=wkevhaZgLc7u39A5"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
