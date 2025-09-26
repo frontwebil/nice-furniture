@@ -26,7 +26,7 @@ export function KithcenPage() {
       ) : (
         <div className="container">
           <KitchenNavigate title={currentKitchen.title} />
-          <h3 className="mobile-title text-lg">{currentKitchen.title}</h3>
+          <h3 className="mobile-title text-lg">кухня {currentKitchen.title}</h3>
           <div className="kitchen-page-content">
             <KitchenSlider currentKitchen={currentKitchen} />
             <KitchenInfo currentKitchen={currentKitchen} />

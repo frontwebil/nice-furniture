@@ -4,7 +4,7 @@ import "./KitchenInfo.css";
 export function KitchenInfo({ currentKitchen }) {
   return (
     <div className="kitchen-info">
-      <h3 className="text-lg font-semiBold">{currentKitchen.title}</h3>
+      <h3 className="text-lg font-semiBold">кухня {currentKitchen.title}</h3>
       <p className="text-sm kitchen-info-code">
         {/* Код товара: <span className="font-semiBold">{currentKitchen.id}</span> */}
       </p>

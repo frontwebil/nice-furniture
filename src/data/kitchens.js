@@ -999,11 +999,11 @@ export const kitchens = [
     gallery: [
       {
         type: "img",
-        src: "https://res.cloudinary.com/djear6ofb/image/upload/w_1920,q_auto:best,f_auto/v1757079698/1_wvxuci.jpg",
+        src: "/kitchenImg/8/2.jpg",
       },
       {
         type: "img",
-        src: "/kitchenImg/8/2.jpg",
+        src: "https://res.cloudinary.com/djear6ofb/image/upload/w_1920,q_auto:best,f_auto/v1757079698/1_wvxuci.jpg",
       },
       {
         type: "img",
@@ -2043,6 +2043,10 @@ export const kitchens = [
     gallery: [
       {
         type: "img",
+        src: "/kitchenImg/15/7.webp",
+      },
+      {
+        type: "img",
         src: "/kitchenImg/15/1.webp",
       },
       {
@@ -2065,10 +2069,7 @@ export const kitchens = [
         type: "img",
         src: "/kitchenImg/15/6.webp",
       },
-      {
-        type: "img",
-        src: "/kitchenImg/15/7.webp",
-      },
+
       {
         type: "img",
         src: "/kitchenImg/15/8.webp",

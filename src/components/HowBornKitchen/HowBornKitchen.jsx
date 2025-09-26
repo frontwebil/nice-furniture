@@ -22,7 +22,7 @@ export function HowBornKitchen() {
             />
             <p className="text-lg font-medium">
               Від ідеї до реалізації. <br />
-              <span className="font-bold">Як народжується</span> кухня!
+              <span className="font-bold">Як народжується</span> наша кухня за один день!
             </p>
           </div>
         </div>

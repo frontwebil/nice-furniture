@@ -49,7 +49,7 @@ export const catalog = [
     id: 7,
   },
   {
-    imgSrc: "/catalog/8.png",
+    imgSrc: "/kitchenImg/8/2.jpg",
     title: "Крафт",
     price: "6500",
     isBest: false,
@@ -98,7 +98,7 @@ export const catalog = [
     id: 14,
   },
   {
-    imgSrc: "/catalog/15.png",
+    imgSrc: "/kitchenImg/15/7.webp",
     title: "Софт",
     price: "15 500",
     isBest: false,

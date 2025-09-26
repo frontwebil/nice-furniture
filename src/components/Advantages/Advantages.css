@@ -14,6 +14,7 @@
 }
 
 .advantages-button-container {
+  margin-right: 100px;
   max-width: 340px;
 }
 .advantages-cards {
@@ -29,13 +30,14 @@
   max-width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 15px;
 }
 .advantages-card h4 {
   padding-top: 15px;
 }
 .advantages-card p {
-  max-width: 300px;
+  text-align: center;
 }
 .advantages-card-icon {
   width: 72px;
@@ -49,6 +51,7 @@
 @media only screen and (max-width: 1100px) {
   .advantages-button-container {
     max-width: 270px;
+    margin-right: 60px;
   }
   .advantages {
     margin-bottom: 60px;
@@ -68,6 +71,11 @@
   }
 }
 
+@media only screen and (max-width: 880px) {
+  .advantages-button-container {
+    margin-right: 0;
+  }
+}
 @media only screen and (max-width: 800px) {
   .advantages-button-container {
     display: none;

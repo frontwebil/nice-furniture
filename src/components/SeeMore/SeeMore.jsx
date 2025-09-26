@@ -1,4 +1,4 @@
-import "./SeeMore.css"
+import "./SeeMore.css";
 
 export function SeeMore() {
   return (
@@ -15,8 +15,13 @@ export function SeeMore() {
             ></iframe>
           </div>
           <div className="seeMore-text">
-            <img src="/seeMore/icon.png" alt="" className="seeMore-text-icon"/>
-            <p className="text-lg font-medium"><span className="font-bold">Тисніть на відео та дізнайтеся за дві хвилини</span> як швидко та економно отримати кухню своєї мрії.</p>
+            <img src="/seeMore/icon.png" alt="" className="seeMore-text-icon" />
+            <p className="text-lg font-medium">
+              <span className="font-bold">
+                Дізнайтесь як швидко та економно отримати кухню своєї мрії 
+              </span>
+              <span>{" "}</span> Тисніть на двоххвилинне відео.
+            </p>
           </div>
         </div>
       </div>

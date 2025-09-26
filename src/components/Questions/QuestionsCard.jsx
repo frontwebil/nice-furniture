@@ -24,7 +24,7 @@ export function QuestionsCard({ text, title }) {
           paddingTop: isOpenCard ? "15px" : "0px",
         }}
       >
-        <p className="text-xxs">{text}</p>
+        <p className="text-xxs" style={{ whiteSpace: "pre-line" }}>{text}</p>
       </div>
     </div>
   );
