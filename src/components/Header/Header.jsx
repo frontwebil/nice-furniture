@@ -21,25 +21,25 @@ export function Header() {
           </Link>
           <div className="header-right">
             <div className="header-social-icons">
-              <a href="https://www.instagram.com/fayni.mebli?igsh=cnRlcGhvbDloYmoy">
+              <a href="https://t.me/FayniKuhni1">
                 <img
-                  src="/header/ins.svg"
+                  src="/footer/tg.svg"
                   alt=""
                   className="header-social-icon"
                 />
               </a>
-              <a href="tel:(068) 220-22-91">
+              <a href="https://msng.link/o?+380682202291=vi">
                 <img
-                  src="/header/tel.svg"
+                  src="/footer/viber.svg"
                   alt=""
                   className="header-social-icon"
                 />
               </a>
               <a
-                href="tel:(068) 220-22-91"
+                href="tel:(044) 209-08-08"
                 className="telephone text-md font-medium"
               >
-                (068) 220-22-91
+                (044) 209-08-08
               </a>
             </div>
             <div
