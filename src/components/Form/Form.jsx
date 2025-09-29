@@ -73,7 +73,7 @@ export function Form() {
                 className="text-base font-bold"
                 style={{ margin: "0px 0 10px", textAlign: "center" }}
               >
-                (044) 490-00-00
+                (044) 209-08-08
               </a>
               <a
                 href="tel:0682202291"

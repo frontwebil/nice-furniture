@@ -18,7 +18,7 @@ export function SeeMore() {
             <img src="/seeMore/icon.png" alt="" className="seeMore-text-icon" />
             <p className="text-lg font-medium">
               <span className="font-bold">
-                Дізнайтесь як швидко та економно отримати кухню своєї мрії 
+                Дізнайтесь як швидко та економно отримати кухню своєї мрії.
               </span>
               <span>{" "}</span> Тисніть на двоххвилинне відео.
             </p>

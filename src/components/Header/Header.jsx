@@ -136,7 +136,7 @@ export function Header() {
         </Link> */}
         <div className="mobile-header-column">
           <a href="tel:0444900000" className="font-semiBold">
-            (044) 490-00-00
+            (044) 209-08-08
           </a>
           <a href="tel:0682202291" className="font-semiBold">
             (068) 220-22-91

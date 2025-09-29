@@ -59,7 +59,7 @@ export function Hero() {
             </div>
           </div>
           <div className="hero-kitchens">
-            {/* <div className="hero-kitchen">
+            <div className="hero-kitchen">
               <img
                 src="/hero/kitchen-1.webp"
                 alt="Сучасна кухня на замовлення ціна від 9000 грн/м.п."
@@ -67,31 +67,31 @@ export function Hero() {
               <div className="font-sm white font-semiBold">
                 <span className="font-xxxs white font-medium">ціни від</span>
                 <br />
-                9000 грн./м.п.
+                6500 грн./м.п.
               </div>
-            </div> */}
+            </div>
             <div className="hero-kitchen">
               <img
                 src="/hero/kitchen-2.webp"
                 alt="Кухня з преміум матеріалів ціна від 15000 грн/м.п."
               />
-              <div className="font-sm white font-semiBold">
+              {/* <div className="font-sm white font-semiBold">
                 <span className="font-xxxs white font-medium">ціни від</span>
                 <br />
                 6500 грн./м.п.
-              </div>
+              </div> */}
             </div>
-            {/* <div className="hero-kitchen hero-kithchen-mobile-hidden">
+            <div className="hero-kitchen hero-kithchen-mobile-hidden">
               <img
                 src="/hero/kitchen-3.webp"
                 alt="Доступна кухня на замовлення ціна від 6500 грн/м.п."
               />
-              <div className="font-sm white font-semiBold">
+              {/* <div className="font-sm white font-semiBold">
                 <span className="font-xxxs white font-medium">ціни від</span>
                 <br />
                 6500 грн./м.п.
-              </div>
-            </div> */}
+              </div> */}
+            </div>
           </div>
         </div>
       </div>

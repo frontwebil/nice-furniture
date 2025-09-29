@@ -9,7 +9,7 @@ export function Footer() {
         </div>
         <div className="footer-links">
           <a href="tel:(044) 490-00-00">
-            <p className="text-base font-semiBold">(044) 490-00-00</p>
+            <p className="text-base font-semiBold">(044) 209-08-08</p>
           </a>
           <a href="tel:(068) 220-22-91">
             <p className="text-base font-semiBold">(068) 220-22-91</p>
