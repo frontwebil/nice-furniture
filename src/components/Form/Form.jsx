@@ -69,7 +69,7 @@ export function Form() {
                 Зв'яжіться з нами!
               </h3>
               <a
-                href="tel:0682202291"
+                href="tel:(044) 209-08-08"
                 className="text-base font-bold"
                 style={{ margin: "0px 0 10px", textAlign: "center" }}
               >
