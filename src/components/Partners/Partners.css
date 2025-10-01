@@ -4,12 +4,13 @@
 .partners-grid {
   margin-top: 40px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 .partner-img-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px 0;
   width: 100%;
   border: 1px solid #efefef;
 }
