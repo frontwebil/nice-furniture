@@ -20,7 +20,7 @@ export function SeeMore() {
               <span className="font-bold">
                 Дізнайтесь як швидко та економно отримати кухню своєї мрії.
               </span>
-              <span>{" "}</span> Тисніть на двоххвилинне відео.
+              <span>{" "}</span> Тисніть на двохвилинне відео.
             </p>
           </div>
         </div>
