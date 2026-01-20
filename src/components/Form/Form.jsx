@@ -10,6 +10,7 @@ export function Form() {
   const [name, setName] = useState("");
   const { isOpen, closeForm } = useFormContext();
   const [loading, setLoading] = useState(false);
+  const isSendingRef = useRef(false);
 
   const formRef = useRef(null);
   const handleClickOutside = (e) => {
@@ -19,7 +20,13 @@ export function Form() {
   };
   const sendQuizResaults = (e) => {
     e.preventDefault();
+    e.stopPropagation(); // 🔥 дуже важливо
+
+    if (isSendingRef.current) return; // 🔒 блокуємо повтор
+    isSendingRef.current = true;
+
     setLoading(true);
+
     emailjs
       .send(
         "service_g69zpkw",
@@ -27,11 +34,11 @@ export function Form() {
         {
           emailTitle: "Новий запит на консультацію з форми",
           messagge: `
-          📞 Телефон: +380${phoneNumber}
-          👤 Ім'я: ${name}
-          `,
+        📞 Телефон: +380${phoneNumber}
+        👤 Ім'я: ${name}
+        `,
         },
-        "CnzOwsFQR0Hu_DO7p"
+        "CnzOwsFQR0Hu_DO7p",
       )
       .then(() => {
         setLoading(false);
@@ -39,14 +46,17 @@ export function Form() {
         setName("");
         toast.success("Заявку відправлено!");
         closeForm();
+        isSendingRef.current = false; // 🔓
       })
       .catch((error) => {
         setLoading(false);
         closeForm();
         alert("Помилка: " + error.text);
         toast.error("Сталася помилка");
+        isSendingRef.current = false; // 🔓
       });
   };
+
   return (
     <>
       {loading && (
@@ -56,7 +66,11 @@ export function Form() {
       )}
       {isOpen && (
         <div className="fixed-form" onClick={handleClickOutside}>
-          <div className="form-wrapper" ref={formRef}>
+          <div
+            className="form-wrapper"
+            ref={formRef}
+            onClick={(e) => e.stopPropagation()}
+          >
             <form action="" className="modal-form" onSubmit={sendQuizResaults}>
               <IoMdClose
                 className="testimonialsSlider-icon-close"
@@ -69,18 +83,18 @@ export function Form() {
                 Зв'яжіться з нами!
               </h3>
               <a
-                href="tel:(044) 209-08-08"
+                href="tel:0800-33-78-15"
                 className="text-base font-bold"
                 style={{ margin: "0px 0 10px", textAlign: "center" }}
               >
-                (044) 209-08-08
+                0800-33-78-15
               </a>
               <a
-                href="tel:0682202291"
+                href="tel:044-599-69-69"
                 className="text-base font-bold"
                 style={{ margin: "0px 0 10px", textAlign: "center" }}
               >
-                (068) 220-22-91
+                044-599-69-69
               </a>
               <p className="text-base font-semiBold">Тисніть на іконки:</p>
               <div className="pop-up-icons" style={{ marginTop: "10px" }}>
@@ -126,7 +140,9 @@ export function Form() {
                   required
                 />
               </div>
-              <button className="modal-submit">Відправити</button>
+              <button className="modal-submit" disabled={loading}>
+                {loading ? "Відправка..." : "Відправити"}
+              </button>
             </form>
           </div>
         </div>

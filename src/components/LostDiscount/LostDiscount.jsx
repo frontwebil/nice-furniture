@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./LostDiscount.css";
 import { toast } from "react-toastify";
@@ -6,9 +6,17 @@ import { toast } from "react-toastify";
 export function LostDiscount() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [loading, setLoading] = useState(false);
+  const isSendingRef = useRef(false);
+
   const sendQuizResaults = (e) => {
     e.preventDefault();
+    e.stopPropagation(); // 🔥 важливо
+
+    if (isSendingRef.current) return; // 🔒 блокуємо повтор
+    isSendingRef.current = true;
+
     setLoading(true);
+
     emailjs
       .send(
         "service_g69zpkw",
@@ -16,22 +24,25 @@ export function LostDiscount() {
         {
           emailTitle: "Новий запит на консультацію за телефоном",
           messagge: `
-          📞 Телефон: +380${phoneNumber}
-          `,
+        📞 Телефон: +380${phoneNumber}
+        `,
         },
-        "CnzOwsFQR0Hu_DO7p"
+        "CnzOwsFQR0Hu_DO7p",
       )
       .then(() => {
         setLoading(false);
         setPhoneNumber("");
         toast.success("Заявку відправлено!");
+        isSendingRef.current = false; // 🔓
       })
       .catch((error) => {
         setLoading(false);
         alert("Помилка: " + error.text);
         toast.error("Сталася помилка");
+        isSendingRef.current = false; // 🔓
       });
   };
+
   return (
     <section className="lostDiscount">
       {loading && (
@@ -90,7 +101,9 @@ export function LostDiscount() {
                 />
               </div>
               <div className="lostDiscount-send">
-                <button className="font-bold">Відправити</button>
+                <button className="font-bold" disabled={loading}>
+                  {loading ? "Відправка..." : "Відправити"}
+                </button>
                 <p className="text-xs">Пропозиція діє, поки ви на сайті</p>
               </div>
             </form>

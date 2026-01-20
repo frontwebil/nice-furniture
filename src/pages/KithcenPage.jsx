@@ -11,15 +11,23 @@ import { KitchenInterest } from "../components/KitchenContent/KitchenInterest/Ki
 
 export function KithcenPage() {
   const { id } = useParams();
-  const [currentKitchen, setCurrenKitchen] = useState();
+  const [currentKitchen, setCurrentKitchen] = useState(null);
+
   useEffect(() => {
-    const kitchen = kitchens.find((el) => el.id == id);
-    setCurrenKitchen(kitchen);
+    const kitchen = kitchens.find((el) => String(el.id) === id);
+    setCurrentKitchen(kitchen ?? null);
+  }, [id]);
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+    });
   }, [id]);
 
   return (
     <section className="kitchen-page">
-      {!currentKitchen || currentKitchen.length < 1 ? (
+      {!currentKitchen ? (
         <div className="loading-overlay">
           <div className="loading-spinner"></div>
         </div>
@@ -27,19 +35,24 @@ export function KithcenPage() {
         <div className="container">
           <KitchenNavigate title={currentKitchen.title} />
           <h3 className="mobile-title text-lg">кухня {currentKitchen.title}</h3>
+
           <div className="kitchen-page-content">
             <KitchenSlider currentKitchen={currentKitchen} />
             <KitchenInfo currentKitchen={currentKitchen} />
           </div>
+
           <div className="kitchen-page-info">
             <p
               className="gray text-xs"
               style={{ whiteSpace: "pre-wrap" }}
-              dangerouslySetInnerHTML={{ __html: currentKitchen.descriptions }}
+              dangerouslySetInnerHTML={{
+                __html: currentKitchen.descriptions,
+              }}
             />
             <KitchenInfoMaterials currentKitchen={currentKitchen} />
             <KitchenMaterialsColors currentKitchen={currentKitchen} />
           </div>
+
           <h3 className="text-lg">Товари, які можуть вас зацікавити</h3>
           <KitchenInterest />
         </div>
