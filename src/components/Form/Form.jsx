@@ -20,7 +20,6 @@ export function Form() {
   };
   const sendQuizResaults = (e) => {
     e.preventDefault();
-    e.stopPropagation(); // 🔥 дуже важливо
 
     if (isSendingRef.current) return; // 🔒 блокуємо повтор
     isSendingRef.current = true;
@@ -66,11 +65,7 @@ export function Form() {
       )}
       {isOpen && (
         <div className="fixed-form" onClick={handleClickOutside}>
-          <div
-            className="form-wrapper"
-            ref={formRef}
-            onClick={(e) => e.stopPropagation()}
-          >
+          <div className="form-wrapper" ref={formRef}>
             <form action="" className="modal-form" onSubmit={sendQuizResaults}>
               <IoMdClose
                 className="testimonialsSlider-icon-close"

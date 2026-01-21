@@ -7,9 +7,7 @@ import { router } from "./Router.jsx";
 import { RouterProvider } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
     <FormProvider>
       <RouterProvider router={router} />
     </FormProvider>
-  </StrictMode>
 );

@@ -8,11 +8,11 @@ export function Footer() {
           <img src="/logo.png" alt="" />
         </div>
         <div className="footer-links">
-          <a href="tel:(044) 209-08-08">
-            <p className="text-base font-semiBold">(044) 209-08-08</p>
+          <a href="tel:0800-33-78-15">
+            <p className="text-base font-semiBold">0800-33-78-15</p>
           </a>
-          <a href="tel:(068) 220-22-91">
-            <p className="text-base font-semiBold">(068) 220-22-91</p>
+          <a href="tel:044-599-69-69">
+            <p className="text-base font-semiBold">044-599-69-69</p>
           </a>
           <div className="footer-icons-wrapper">
             <p className="text-base">Тисніть на іконки:</p>
