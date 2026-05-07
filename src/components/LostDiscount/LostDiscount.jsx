@@ -2,20 +2,33 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./LostDiscount.css";
 import { toast } from "react-toastify";
+import axios from "axios";
 
 export function LostDiscount() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [loading, setLoading] = useState(false);
   const isSendingRef = useRef(false);
 
-  const sendQuizResaults = (e) => {
+  const sendQuizResaults = async (e) => {
     e.preventDefault();
-    e.stopPropagation(); // 🔥 важливо
+    // e.stopPropagation();
 
     if (isSendingRef.current) return; // 🔒 блокуємо повтор
     isSendingRef.current = true;
 
     setLoading(true);
+
+    await axios.post(
+      "https://kuhni-back.vercel.app/api/sendMessageToTelegram",
+      {
+        phone: phoneNumber,
+      },
+      {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      },
+    );
 
     emailjs
       .send(

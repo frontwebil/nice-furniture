@@ -4,6 +4,7 @@ import "./Form.css";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import { IoMdClose } from "react-icons/io";
+import axios from "axios";
 
 export function Form() {
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -18,42 +19,53 @@ export function Form() {
       closeForm();
     }
   };
-  const sendQuizResaults = (e) => {
+  const sendQuizResaults = async (e) => {
     e.preventDefault();
 
-    if (isSendingRef.current) return; // 🔒 блокуємо повтор
+    if (isSendingRef.current) return;
     isSendingRef.current = true;
 
     setLoading(true);
 
-    emailjs
-      .send(
+    try {
+      await axios.post(
+        "https://kuhni-back.vercel.app/api/sendMessageToTelegram",
+        {
+          name,
+          phone: phoneNumber,
+        },
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        },
+      );
+
+      await emailjs.send(
         "service_g69zpkw",
         "template_l4353a8",
         {
           emailTitle: "Новий запит на консультацію з форми",
           messagge: `
-        📞 Телефон: +380${phoneNumber}
-        👤 Ім'я: ${name}
+📞 Телефон: +380${phoneNumber}
+👤 Ім'я: ${name}
         `,
         },
         "CnzOwsFQR0Hu_DO7p",
-      )
-      .then(() => {
-        setLoading(false);
-        setPhoneNumber("");
-        setName("");
-        toast.success("Заявку відправлено!");
-        closeForm();
-        isSendingRef.current = false; // 🔓
-      })
-      .catch((error) => {
-        setLoading(false);
-        closeForm();
-        alert("Помилка: " + error.text);
-        toast.error("Сталася помилка");
-        isSendingRef.current = false; // 🔓
-      });
+      );
+
+      setLoading(false);
+      setPhoneNumber("");
+      setName("");
+      toast.success("Заявку відправлено!");
+      closeForm();
+    } catch (error) {
+      setLoading(false);
+      toast.error("Сталася помилка");
+      console.error(error);
+    } finally {
+      isSendingRef.current = false;
+    }
   };
 
   return (

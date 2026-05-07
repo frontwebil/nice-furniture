@@ -1,11 +1,28 @@
 import emailjs from "@emailjs/browser";
-import { useEffect, useState } from "react";
+import axios from "axios";
+import { useState } from "react";
+
 
 export function Quiz6({ setNextStep, setQuizResaults, quizResaults }) {
   const [loading, setLoading] = useState(false);
-  const sendQuizResaults = (e) => {
+  const sendQuizResaults = async (e) => {
     e.preventDefault();
     setLoading(true);
+
+    await axios.post(
+      "https://kuhni-back.vercel.app/api/sendMessageToTelegram",
+      {
+        name: quizResaults.name,
+        phone: quizResaults.tel,
+        quizResaults
+      },
+      {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      },
+    );
+
     emailjs
       .send(
         "service_g69zpkw",
@@ -23,7 +40,7 @@ export function Quiz6({ setNextStep, setQuizResaults, quizResaults }) {
           ⏳ Термін: ${quizResaults.time}
           `,
         },
-        "CnzOwsFQR0Hu_DO7p"
+        "CnzOwsFQR0Hu_DO7p",
       )
       .then(() => {
         setLoading(false);
