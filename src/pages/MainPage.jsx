@@ -17,11 +17,11 @@ export function MainPage() {
       <Hero />
       <Catalog />
       <SeeMore />
-      <Advantages />
-      <HowBornKitchen />
       <Testimonials />
       <Discount />
+      <HowBornKitchen />
       <CalculationQuiz />
+      <Advantages />
       <AboutUs />
       <Partners />
       <Questions />
