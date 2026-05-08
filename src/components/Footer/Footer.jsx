@@ -17,10 +17,10 @@ export function Footer() {
           <div className="footer-icons-wrapper">
             <p className="text-base">Тисніть на іконки:</p>
             <div className="pop-up-icons" style={{ margin: "0px" }}>
-              <a href="https://msng.link/o?+380682202291=vi">
+              <a href="https://msng.link/o?+380678295889=vi">
                 <img src="/icons/vb.svg" alt="" className="icon-social" />
               </a>
-              <a href="https://t.me/FayniKuhni1">
+              <a href="https://t.me/FainiKuhni">
                 <img src="/icons/tg.svg" alt="" className="icon-social" />
               </a>
             </div>

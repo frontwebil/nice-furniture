@@ -42,6 +42,7 @@ export function Hero() {
           className="hero-discount"
           role="note"
           aria-label="Акційна пропозиція"
+          style={{display:"none"}}
         >
           <div className="hero-discount-row">
             <img

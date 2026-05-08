@@ -21,14 +21,14 @@ export function Header() {
           </Link>
           <div className="header-right">
             <div className="header-social-icons">
-              <a href="https://t.me/FayniKuhni1">
+              <a href="https://t.me/FainiKuhni">
                 <img
                   src="/footer/tg.svg"
                   alt=""
                   className="header-social-icon"
                 />
               </a>
-              <a href="https://msng.link/o?+380682202291=vi">
+              <a href="https://msng.link/o?+380678295889=vi">
                 <img
                   src="/footer/viber.svg"
                   alt=""
@@ -143,10 +143,10 @@ export function Header() {
           </a>
           <p className="text-base font-semiBold">Тисніть на іконки:</p>
           <div className="pop-up-icons">
-            <a href="https://msng.link/o?+380682202291=vi">
+            <a href="https://msng.link/o?+380678295889=vi">
               <img src="/icons/vb.svg" alt="" className="icon-social" />
             </a>
-            <a href="https://t.me/FayniKuhni1">
+            <a href="https://t.me/FainiKuhni">
               <img src="/icons/tg.svg" alt="" className="icon-social" />
             </a>
           </div>
