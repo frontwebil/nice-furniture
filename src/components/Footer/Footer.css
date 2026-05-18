@@ -3,6 +3,16 @@ footer {
   background-color: #eff3f7;
 }
 
+.footer-column-link-other-site{
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.footer-column-link-other-site svg{
+  margin-top: 2px;
+}
+
 .footer-logo {
   margin-bottom: 30px;
 }

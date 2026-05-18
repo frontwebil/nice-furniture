@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import "./Footer.css";
+import { LuSofa } from "react-icons/lu";
 
 export function Footer() {
   return (
@@ -30,6 +32,13 @@ export function Footer() {
               м. Київ, вул. Святошинська, 1
             </p>
           </a>
+          <a
+            href="https://fayni-mebli.com/"
+            className="footer-column-link-other-site text-base font-semiBold"
+          >
+            <LuSofa />
+            <p>Інші меблі</p>
+          </a>
           <div className="footer-links-social">
             <a href="https://www.facebook.com/faynimebli/">
               <img
@@ -45,6 +54,7 @@ export function Footer() {
                 className="footer-links-social-icon"
               />
             </a>
+
             <a href="https://www.youtube.com/user/faynimebli">
               <img
                 src="/footer/yt.svg"

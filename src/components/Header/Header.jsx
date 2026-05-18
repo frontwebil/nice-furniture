@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import { LuSofa } from "react-icons/lu";
 
 export function Header() {
   const [isOpenBurger, setIsOpenBurger] = useState(false);
@@ -180,6 +181,15 @@ export function Header() {
             </a>
           </div>
         </div>
+        {width <= 780 && (
+          <Link
+            to="https://fayni-mebli.com/"
+            className="mobile-header-column-link"
+          >
+            <LuSofa />
+            <p>Інші меблі</p>
+          </Link>
+        )}
       </div>
     </header>
   );
