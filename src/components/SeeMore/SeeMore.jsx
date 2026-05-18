@@ -7,7 +7,7 @@ export function SeeMore() {
         <div className="seeMore-content">
           <div className="video-container">
             <iframe
-              src="https://www.youtube.com/embed/iTJcwGOfDHY?si=Ml7-b9MYfrbXEnEN"
+              src="https://www.youtube.com/embed/eauYDSlhkeI?si=8ukR6BkZ4YIyAJ7j"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -20,7 +20,7 @@ export function SeeMore() {
               <span className="font-bold">
                 Дізнайтесь як швидко та економно отримати кухню своєї мрії.
               </span>
-              <span>{" "}</span> Тисніть на двохвилинне відео.
+              <span> </span> Тисніть на двохвилинне відео.
             </p>
           </div>
         </div>
