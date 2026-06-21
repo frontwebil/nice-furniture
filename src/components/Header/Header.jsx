@@ -24,14 +24,14 @@ export function Header() {
             <div className="header-social-icons">
               <a href="https://t.me/FainiKuhni">
                 <img
-                  src="/Footer/tg.svg"
+                  src="/footer/tg.svg"
                   alt=""
                   className="header-social-icon"
                 />
               </a>
               <a href="https://msng.link/o?+380678295889=vi">
                 <img
-                  src="/Footer/viber.svg"
+                  src="/footer/viber.svg"
                   alt=""
                   className="header-social-icon"
                 />
@@ -160,21 +160,21 @@ export function Header() {
           <div className="footer-links-social">
             <a href="https://www.facebook.com/faynimebli/">
               <img
-                src="/Footer/fb.svg"
+                src="/footer/fb.svg"
                 alt=""
                 className="footer-links-social-icon"
               />
             </a>
             <a href="https://www.instagram.com/fayni.mebli?igsh=cnRlcGhvbDloYmoy">
               <img
-                src="/Footer/inst.svg"
+                src="/footer/inst.svg"
                 alt=""
                 className="footer-links-social-icon"
               />
             </a>
             <a href="https://www.youtube.com/user/faynimebli">
               <img
-                src="/Footer/yt.svg"
+                src="/footer/yt.svg"
                 alt=""
                 className="footer-links-social-icon"
               />
