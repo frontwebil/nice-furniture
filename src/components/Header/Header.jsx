@@ -157,6 +157,13 @@ export function Header() {
           >
             м. Київ, вул. Святошинська, 1
           </a>
+          <a
+            href="https://share.google/xOnxplVOCrI7p42Nk"
+            className="text-base font-semiBold"
+            style={{textAlign:"center"}}
+          >
+            м. Одеса, проспект Князя Ярослава Мудрого 29 , <br /> БЦ Елемент
+          </a>
           <div className="footer-links-social">
             <a href="https://www.facebook.com/faynimebli/">
               <img
