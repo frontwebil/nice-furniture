@@ -11,6 +11,7 @@ import { Partners } from "../components/Partners/Partners";
 import { Questions } from "../components/Questions/Questions";
 import { Testimonials } from "../components/Testimonials/Testimonials";
 import { Catalog } from "../components/Catalog/Catalog";
+import { Works } from "../components/Works/Works";
 export function MainPage() {
   return (
     <>
@@ -18,7 +19,8 @@ export function MainPage() {
       <Catalog />
       <SeeMore />
       <Testimonials />
-      <Discount />
+      {/* <Discount /> */}
+      <Works />
       <HowBornKitchen />
       <CalculationQuiz />
       <Advantages />
