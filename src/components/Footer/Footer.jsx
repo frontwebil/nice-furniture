@@ -32,6 +32,11 @@ export function Footer() {
               м. Київ, вул. Святошинська, 1
             </p>
           </a>
+          <a href="https://share.google/xOnxplVOCrI7p42Nk">
+            <p className="text-base font-semiBold">
+              Одеса, проспект Князя <br /> Ярослава Мудрого 29,<br /> БЦ Елемент
+            </p>
+          </a>
           <a
             href="https://fayni-mebli.com/"
             className="footer-column-link-other-site text-base font-semiBold"
