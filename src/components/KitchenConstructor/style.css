@@ -1,0 +1,129 @@
+.kitchen-constructor {
+  margin-bottom: 120px;
+  padding-top: 40px;
+}
+
+.kitchen-constructor-content {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.kitchen-constructor-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.kitchen-constructor-info h2 {
+  max-width: 600px;
+  margin: 0;
+}
+
+.kitchen-constructor-info p {
+  max-width: 540px;
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.kitchen-constructor-button {
+  margin-top: 35px;
+  max-width: 340px;
+}
+
+.kitchen-constructor-image {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.kitchen-constructor-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+/* 1100px */
+@media only screen and (max-width: 1100px) {
+  .kitchen-constructor {
+    margin-bottom: 80px;
+  }
+
+  .kitchen-constructor-content {
+    gap: 40px;
+  }
+
+  .kitchen-constructor-info p {
+    margin-top: 20px;
+  }
+
+  .kitchen-constructor-button {
+    margin-top: 25px;
+  }
+}
+
+/* 800px */
+@media only screen and (max-width: 800px) {
+  .kitchen-constructor {
+    margin-bottom: 60px;
+    padding-top: 60px;
+  }
+
+  .kitchen-constructor-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .kitchen-constructor-info {
+    align-items: center;
+    text-align: center;
+  }
+
+  .kitchen-constructor-info h2 {
+    max-width: 650px;
+  }
+
+  .kitchen-constructor-info p {
+    max-width: 600px;
+    margin-top: 15px;
+  }
+
+  .kitchen-constructor-button {
+    margin-top: 25px;
+    max-width: 280px;
+  }
+
+  .kitchen-constructor-image {
+    order: 2;
+    border-radius: 15px;
+  }
+}
+
+/* 500px */
+@media only screen and (max-width: 500px) {
+  .kitchen-constructor {
+    margin-bottom: 50px;
+  }
+
+  .kitchen-constructor-content {
+    gap: 25px;
+  }
+
+  .kitchen-constructor-info p {
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  .kitchen-constructor-button {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .kitchen-constructor-image {
+    border-radius: 12px;
+  }
+}

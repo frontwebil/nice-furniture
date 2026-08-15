@@ -12,6 +12,7 @@ import { Questions } from "../components/Questions/Questions";
 import { Testimonials } from "../components/Testimonials/Testimonials";
 import { Catalog } from "../components/Catalog/Catalog";
 import { Works } from "../components/Works/Works";
+import { KitchenConstructor } from "../components/KitchenConstructor/KitchenConstructor";
 export function MainPage() {
   return (
     <>
@@ -23,6 +24,7 @@ export function MainPage() {
       <Works />
       <HowBornKitchen />
       <CalculationQuiz />
+      <KitchenConstructor/>
       <Advantages />
       <AboutUs />
       <Partners />
