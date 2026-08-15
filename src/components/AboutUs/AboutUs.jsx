@@ -9,7 +9,7 @@ export function AboutUs() {
         </div>
         <div className="about-us-content">
           <h3 className="text-lg">
-            <span className="font-bold">Про нас</span> - честно і без прикрас
+            <span className="font-bold">Про нас</span> - чесно і без прикрас
           </h3>
           <div className="about-us-advantages-column">
             <div className="about-us-advantages">
