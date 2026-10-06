@@ -15,13 +15,13 @@ export const catalog = [
     id: 2,
   },
 
-  // {
-  //   imgSrc: "/catalog/3.png",
-  //   title: "AGT plus",
-  //   price: "11 200",
-  //   isBest: false,
-  //   id: 3,
-  // },
+  {
+    imgSrc: "/catalog/17.png",
+    title: "AGT plus",
+    price: "11 200",
+    isBest: false,
+    id: 17,
+  },
 
   {
     imgSrc: "/catalog/4.png",
